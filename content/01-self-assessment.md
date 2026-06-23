@@ -3,7 +3,7 @@
 > ⚠️ **먼저 읽어주세요**
 > 이 자료는 **교육용 정보**이며 의학적 진단을 대신하지 않습니다.
 > 출산 후 첫 운동·셀프 평가는 **산후 6주 진료(자궁·회음부/제왕절개 상처 회복 확인)에서 의료진의 승인**을 받은 뒤 시작하는 것이 가장 안전합니다.
-> 우리 아내는 **2026년 5월 6일 자연/수술 여부에 따라 회복 속도가 다르므로**, 아래 검사 중 통증이 심하거나 출혈·압박감이 늘면 즉시 멈추고 전문가(산부인과·여성 골반 전문 물리치료사)와 상담하세요.
+> 아내(**2026년 5월 6일 자연분만**)의 회복에 맞춘 자료입니다. 회복 속도는 개인차가 크니, 아래 검사 중 통증이 심하거나 출혈·압박감이 늘면 즉시 멈추고 전문가(산부인과·여성 골반 전문 물리치료사)와 상담하세요.
 
 ---
 
@@ -73,7 +73,7 @@
 - **묵직함/압박감**: 오래 서 있거나 저녁에 질 쪽이 빠지는 듯한 묵직함이 있는가?
 - **수축 인지 점검**: 소변 참듯 조였다 푸는 동작을 할 때 **조이는 느낌과 완전히 이완되는 느낌**이 둘 다 또렷한가? (조이기만 하고 못 푸는 것도 문제)
 
-> 증상이 있다면 부끄러워 말고 골반저(pelvic floor) 물리치료를 권합니다. 초기 케겔은 1-5장의 호흡과 함께 가볍게 시작합니다.
+> 증상이 있다면 부끄러워 말고 골반저(pelvic floor) 물리치료를 권합니다. 초기 케겔은 [2장](02-gentle-exercises.md)의 호흡과 함께 가볍게 시작합니다. "조이기만 되고 못 푸는" 경우의 접근은 [4장 Q11](04-faq-glossary.md)을 참고하세요.
 
 ---
 
@@ -94,3 +94,7 @@
 - [Evaluation of self-administered tests for pelvic girdle pain in pregnancy — BMC Musculoskeletal Disorders](https://link.springer.com/article/10.1186/1471-2474-15-138)
 - [Validation of self-administered tests for chronic pregnancy-related pelvic girdle pain (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7923664/)
 - [Self-administered tests as a screening procedure for PGP (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2899498/)
+
+---
+
+🧭 [◀ 0장 시작하며](00-overview-and-myths.md) · [2장 초기 운동 ▶](02-gentle-exercises.md) · [📚 목차](00-overview-and-myths.md)

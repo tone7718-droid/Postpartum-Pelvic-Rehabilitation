@@ -55,8 +55,12 @@
 1. **0장 (지금)** — 큰 그림과 통념 바로잡기
 2. **[1장 셀프 평가](01-self-assessment.md)** — 지금 내 몸 어디가 약한지 점검 (복직근 이개·골반대 통증·골반저근)
 3. **[2장 초기 운동](02-gentle-exercises.md)** — 호흡 → 골반저 → 코어 → 안정성 → 걷기 단계별 동작
-4. **[3장 회복 타임라인](03-recovery-timeline.md)** — 0~2주 / 2~6주 / 6주 진료 / 6~12주 / 12주+ 와 제왕절개·달리기 복귀
-5. **[4장 FAQ·용어](04-faq-glossary.md)** — 자주 묻는 질문과 용어 사전
+4. **[3장 회복 타임라인](03-recovery-timeline.md)** — 시기별 가이드와 회음부 열상·제왕절개·달리기 복귀
+5. **[4장 FAQ·용어](04-faq-glossary.md)** — 자주 묻는 질문(증상 유형별 접근 포함)과 용어 사전
+6. **[5장 본격 강화·기능 복귀](05-advanced-progression.md)** — 3개월 이후 다음 단계 운동 (서두르지 않기)
+7. **[6장 실천 도구](06-practical-tools.md)** — 증상 일지, 6주 검진 체크리스트, 함께하는 사람을 위한 팁
+
+> 📖 **읽는 순서 팁**: 처음이라면 **0 → 1 → 2 → 3 → 6**을 먼저 보세요. 4장은 궁금할 때 찾아보고, 5장은 회복이 충분히 진행된 뒤(보통 3개월+) 펴면 됩니다.
 
 > **언제 전문가에게 가야 하나:** 요실금·변실금, 질이 빠질 듯한 묵직함(탈출감), 가라앉지 않는 골반·치골 통증, 손가락 2.5개 이상 이개 — 이 중 하나라도 있으면 혼자 애쓰지 말고 **여성 골반 전문 물리치료사 / 산부인과·재활의학과**를 찾는 것이 가장 근거 있고 빠른 길입니다.
 
@@ -68,3 +72,7 @@
 - [Pelvic floor muscle training for prevention/treatment of urinary/faecal incontinence — Cochrane (Boyle et al.)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007471.pub3/full)
 - [Returning to running postnatal — guidelines (Goom, Donnelly, Brockwell 2019, PDF)](https://absolute.physio/wp-content/uploads/2019/09/returning-to-running-postnatal-guidelines.pdf)
 - 본문 근거 종합: [`reports/01-claude-deep-research.md`](../reports/01-claude-deep-research.md)
+
+---
+
+🧭 **이 책 목차** · 0장 시작하며 · [1장 셀프 평가 ▶](01-self-assessment.md)

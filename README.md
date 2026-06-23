@@ -51,8 +51,10 @@
 - [x] Claude 심층 보고서 1편 반영 (통념 정정·근거 보강)
 - [x] Grok 심층 보고서 반영 + 교차 검증 메모 작성
 - [x] ChatGPT 심층 보고서 반영 (근거 수준 구분·증상 유형별 접근·회음부 열상·6~12개월 회복)
-- [ ] 동작별 SVG/일러스트 추가
-- [ ] Next.js + Tailwind 전자책 UI 구축 (셀프 평가 인터랙티브 체크 포함)
+- [x] 콘텐츠 전체 정합성 다듬기 (장 간 내비게이션·상호참조·면책 문구 일관화)
+- [x] 일러스트·인터랙션 설계 명세 작성 ([`design/illustration-and-interaction-spec.md`](design/illustration-and-interaction-spec.md))
+- [ ] 동작별 SVG/일러스트 제작 (웹 구축과 병행)
+- [ ] Next.js + Tailwind 전자책 UI 구축 (MDX 렌더 → 운동 카드 → 셀프 평가 인터랙티브)
 - [ ] Vercel 배포
 
 ## 📁 현재 구조
@@ -70,4 +72,6 @@ reports/
   01-claude-deep-research.md   # 근거 심층 보고서 원본 (Claude)
   02-grok-deep-research.md     # 근거 심층 보고서 원본 (Grok)
   03-chatgpt-deep-research.md  # 근거 심층 보고서 원본 (ChatGPT)
+design/
+  illustration-and-interaction-spec.md # 일러스트·인터랙션 설계 명세
 ```

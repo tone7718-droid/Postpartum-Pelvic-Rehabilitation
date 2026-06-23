@@ -90,3 +90,7 @@
 - [Pelvic floor dysfunction: prevention and non-surgical management — NICE NG210 (2021)](https://www.nice.org.uk/guidance/ng210)
 - [Exercise in the first year postpartum and pelvic floor dysfunction — Beamish et al., BJSM 2025](https://bjsm.bmj.com/content/59/8/562)
 - 증상 유형별 접근·근거 수준 종합: [`reports/03-chatgpt-deep-research.md`](../reports/03-chatgpt-deep-research.md)
+
+---
+
+🧭 [◀ 3장 회복 타임라인](03-recovery-timeline.md) · [5장 본격 강화·기능 복귀 ▶](05-advanced-progression.md) · [📚 목차](00-overview-and-myths.md)

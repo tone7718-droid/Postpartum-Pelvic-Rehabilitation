@@ -63,7 +63,7 @@
 ### ⑤ 브리지 (Glute Bridge)
 1. 누워 무릎 세우기. 날숨에 골반저·코어를 잡고 **엉덩이를 천천히** 들어 무릎-골반-어깨가 일직선.
 2. 1~2초 유지 후 들숨에 척추를 한 마디씩 내려놓기. 8~10회 × 2세트.
-3. *주의*: 한쪽 골반에 통증이 쏠리면 1-3장의 골반 검사 재확인.
+3. *주의*: 한쪽 골반에 통증이 쏠리면 [1장 1-3](01-self-assessment.md)의 골반 검사 재확인.
 
 ### ⑥ 버드독 준비 (Bird-Dog, 손 vs 무릎)
 1. 네발기기 자세, 등은 중립(허리 꺼지지 않게), 코어 가볍게 잡기.
@@ -123,3 +123,7 @@
 - [Postpartum Exercise Intervention Targeting Diastasis Recti (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8136546/)
 - [8 Best Diastasis Recti Exercises — Nourish Move Love](https://www.nourishmovelove.com/postpartum-recovery-diastasis-recti-exercises/)
 - [Empowering postpartum women through Kegel education (PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12907388/)
+
+---
+
+🧭 [◀ 1장 셀프 평가](01-self-assessment.md) · [3장 회복 타임라인 ▶](03-recovery-timeline.md) · [📚 목차](00-overview-and-myths.md)
