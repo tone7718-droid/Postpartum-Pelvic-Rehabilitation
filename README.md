@@ -17,6 +17,8 @@
 - [`content/02-gentle-exercises.md`](content/02-gentle-exercises.md) — **초기 운동**: 호흡→골반저→골반 기울이기→안정성→걷기의 4단계 진행, 하루 10분 초보 루틴, 자세·생활 습관 팁
 - [`content/03-recovery-timeline.md`](content/03-recovery-timeline.md) — **회복 타임라인**: 0~2주/2~6주/6주 진료/6~12주/12주+ 시기별 가이드, 제왕절개 특이사항, 달리기·고충격 복귀 기준
 - [`content/04-faq-glossary.md`](content/04-faq-glossary.md) — **FAQ·용어 정리**: 자주 묻는 질문 10선(통념 정정 포함), Red Flags 요약, 핵심 용어 사전
+- [`content/05-advanced-progression.md`](content/05-advanced-progression.md) — **본격 강화·기능 복귀(3개월+)**: 데드버그·팔로프·싱글레그·스텝업·스쿼트·런지·변형 플랭크, 고충격 복귀
+- [`content/06-practical-tools.md`](content/06-practical-tools.md) — **실천 도구**: 증상 일지(주간 기록표), 6주 검진 체크리스트, 함께하는 사람을 위한 팁
 
 ## 📑 근거 자료 (reports/)
 
@@ -31,7 +33,7 @@
 |---|---|---|---|
 | **릴랙신 정상화 시점** | "수개월~최대 12개월" 소요 | 혈중 릴랙신은 **3일 내 거의 소실, ~2주 정상화** (직접 측정 연구) | **측정 연구가 우위.** 장기 "느슨함"은 릴랙신과 무관하게 지속(0장 채택) |
 | **"골든타임" 프레이밍** | 4주~6개월, "시간이 해결은 위험" | 조기 개입은 유익하나 **DRA는 수년 뒤에도 재활 가능** | 조기 시작 권장은 동일하되, **"놓치면 끝" 식 단정은 과장** |
-| **SI 벨트(골반밴드)** | 활동 시 착용 적극 권장 | 일시적 통증완화엔 도움, **근본 교정엔 한계** | 표현 차이. 보조 도구로 한정 (추가 여부 검토 중) |
+| **SI 벨트(골반밴드)** | 활동 시 착용 적극 권장 | 일시적 통증완화엔 도움, **근본 교정엔 한계** | 표현 차이. **보조 도구로 한정**해 2장에 반영(운동 대체 불가·종일 착용 지양) |
 
 ## 🧭 콘텐츠 구성 원칙
 
@@ -58,6 +60,8 @@ content/
   02-gentle-exercises.md   # 초기 운동
   03-recovery-timeline.md  # 회복 타임라인 (제왕절개·복귀 기준 포함)
   04-faq-glossary.md       # FAQ·용어 정리
+  05-advanced-progression.md # 본격 강화·기능 복귀 (3개월+)
+  06-practical-tools.md    # 증상 일지·6주 검진 체크리스트
 reports/
   01-claude-deep-research.md # 근거 심층 보고서 원본 (Claude)
   02-grok-deep-research.md    # 근거 심층 보고서 원본 (Grok)
