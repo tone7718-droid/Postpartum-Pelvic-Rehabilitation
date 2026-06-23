@@ -15,8 +15,8 @@
 - [`content/00-overview-and-myths.md`](content/00-overview-and-myths.md) — **시작하며·통념 바로잡기**: "닫는 것"이 아니라 "다시 지탱하기", 릴랙신·골반교정 통념 정정, 핵심 근거 수치, 전체 지도
 - [`content/01-self-assessment.md`](content/01-self-assessment.md) — **셀프 평가**: 복직근 이개 손가락 검사, 골반대 통증(ASLR·P4·브리지) 자가 테스트, 골반저근 점검, 위험 신호(Red Flags)
 - [`content/02-gentle-exercises.md`](content/02-gentle-exercises.md) — **초기 운동**: 호흡→골반저→골반 기울이기→안정성→걷기의 4단계 진행, 하루 10분 초보 루틴, 자세·생활 습관 팁
-- [`content/03-recovery-timeline.md`](content/03-recovery-timeline.md) — **회복 타임라인**: 0~2주/2~6주/6주 진료/6~12주/12주+ 시기별 가이드, 제왕절개 특이사항, 달리기·고충격 복귀 기준
-- [`content/04-faq-glossary.md`](content/04-faq-glossary.md) — **FAQ·용어 정리**: 자주 묻는 질문 10선(통념 정정 포함), Red Flags 요약, 핵심 용어 사전
+- [`content/03-recovery-timeline.md`](content/03-recovery-timeline.md) — **회복 타임라인**: 시기별 가이드, 자연분만 회음부 열상·제왕절개 특이사항, 6~12개월 기능 회복, 달리기·고충격 복귀 기준
+- [`content/04-faq-glossary.md`](content/04-faq-glossary.md) — **FAQ·용어 정리**: 자주 묻는 질문 11선(통념 정정·증상 유형별 접근 포함), Red Flags 요약, 핵심 용어 사전
 - [`content/05-advanced-progression.md`](content/05-advanced-progression.md) — **본격 강화·기능 복귀(3개월+)**: 데드버그·팔로프·싱글레그·스텝업·스쿼트·런지·변형 플랭크, 고충격 복귀
 - [`content/06-practical-tools.md`](content/06-practical-tools.md) — **실천 도구**: 증상 일지(주간 기록표), 6주 검진 체크리스트, 함께하는 사람을 위한 팁
 
@@ -26,14 +26,18 @@
 
 - [`reports/01-claude-deep-research.md`](reports/01-claude-deep-research.md) — 근거 기반 산후 골반 회복 종합 보고서 (1차 연구 인용·통념 정정 포함)
 - [`reports/02-grok-deep-research.md`](reports/02-grok-deep-research.md) — Grok 작성 종합 보고서 (force closure·자가 테스트·실천 가이드)
+- [`reports/03-chatgpt-deep-research.md`](reports/03-chatgpt-deep-research.md) — ChatGPT 작성 종합 보고서 (근거 수준 구분·증상 유형별 접근·국내 공식 자료)
 
-### 🔍 교차 검증 메모 (보고서 간 상충점)
+### 🔍 교차 검증 메모 (보고서 3편 비교)
 
-| 쟁점 | Grok 보고서 | Claude 보고서 / 채택안 | 판단 |
-|---|---|---|---|
-| **릴랙신 정상화 시점** | "수개월~최대 12개월" 소요 | 혈중 릴랙신은 **3일 내 거의 소실, ~2주 정상화** (직접 측정 연구) | **측정 연구가 우위.** 장기 "느슨함"은 릴랙신과 무관하게 지속(0장 채택) |
-| **"골든타임" 프레이밍** | 4주~6개월, "시간이 해결은 위험" | 조기 개입은 유익하나 **DRA는 수년 뒤에도 재활 가능** | 조기 시작 권장은 동일하되, **"놓치면 끝" 식 단정은 과장** |
-| **SI 벨트(골반밴드)** | 활동 시 착용 적극 권장 | 일시적 통증완화엔 도움, **근본 교정엔 한계** | 표현 차이. **보조 도구로 한정**해 2장에 반영(운동 대체 불가·종일 착용 지양) |
+| 쟁점 | Grok | Claude | ChatGPT | 채택안 / 판단 |
+|---|---|---|---|---|
+| **릴랙신 정상화** | 수개월~12개월 | 3일 내 소실, ~2주 정상화 | 종료시점 불확실·개인차, 릴랙신만으로 설명 약함 | **혈중 릴랙신은 빠르게 하락**, 장기 "느슨함"은 릴랙신과 별개. 단일 원인화 금지(0장) |
+| **"6주면 끝"** | 골든타임 4~6개월 | DRA는 수년 뒤도 재활 가능 | 해부학 회복은 6개월, **기능은 12개월까지** 지속 | "끝" 아님. 6~12개월 회복 뉘앙스 반영(0·3장) |
+| **운동 효과 근거** | 대체로 긍정 | 요실금 강함/이개 낮음 | **요실금 강함, 성기능·항문실금·탈출 제한적** | 근거 수준 정직하게 구분(0장) |
+| **증상 유형** | 강화 중심 | 이완 중요 언급 | **누출형 vs 통증/긴장(과긴장)형 구분** | 유형별 접근 FAQ로 반영(4장) |
+| **SI 벨트** | 적극 권장 | — | (직접 언급 적음) | 보조 도구로 한정(2장) |
+| **회음부 열상/OASI** | — | — | **자연분만 열상·OASI 별도 관리** | 자연분만 섹션 신설(3장) |
 
 ## 🧭 콘텐츠 구성 원칙
 
@@ -46,7 +50,7 @@
 
 - [x] Claude 심층 보고서 1편 반영 (통념 정정·근거 보강)
 - [x] Grok 심층 보고서 반영 + 교차 검증 메모 작성
-- [ ] ChatGPT 심층 보고서 추가 반영 및 교차 검증
+- [x] ChatGPT 심층 보고서 반영 (근거 수준 구분·증상 유형별 접근·회음부 열상·6~12개월 회복)
 - [ ] 동작별 SVG/일러스트 추가
 - [ ] Next.js + Tailwind 전자책 UI 구축 (셀프 평가 인터랙티브 체크 포함)
 - [ ] Vercel 배포
@@ -58,11 +62,12 @@ content/
   00-overview-and-myths.md # 시작하며·통념 바로잡기
   01-self-assessment.md    # 셀프 평가
   02-gentle-exercises.md   # 초기 운동
-  03-recovery-timeline.md  # 회복 타임라인 (제왕절개·복귀 기준 포함)
+  03-recovery-timeline.md  # 회복 타임라인 (회음부 열상·제왕절개·복귀 기준)
   04-faq-glossary.md       # FAQ·용어 정리
   05-advanced-progression.md # 본격 강화·기능 복귀 (3개월+)
   06-practical-tools.md    # 증상 일지·6주 검진 체크리스트
 reports/
-  01-claude-deep-research.md # 근거 심층 보고서 원본 (Claude)
-  02-grok-deep-research.md    # 근거 심층 보고서 원본 (Grok)
+  01-claude-deep-research.md   # 근거 심층 보고서 원본 (Claude)
+  02-grok-deep-research.md     # 근거 심층 보고서 원본 (Grok)
+  03-chatgpt-deep-research.md  # 근거 심층 보고서 원본 (ChatGPT)
 ```

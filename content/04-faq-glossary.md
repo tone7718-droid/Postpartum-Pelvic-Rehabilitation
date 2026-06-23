@@ -37,6 +37,15 @@
 **Q10. 골반교정기·골반밴드·추나/도수치료로 벌어진 골반을 닫을 수 있나요?**
 밴드·기구는 **초기 통증 완화와 일시적 지지**에는 도움이 될 수 있습니다. 하지만 "벌어진 뼈를 닫아 교정한다"는 표현은 근거가 약하고, **근육·인대 기능을 회복시키지 않으면 한계**가 있습니다. 통증이 있는 천장관절·치골 문제에는 **운동치료(코어·골반 안정화)와 골반저 물리치료가 우선 근거**가 있습니다. 비용을 쓰기 전, 증상이 있으면 전문가 평가를 먼저 받는 것이 합리적입니다.
 
+**Q11. 케겔을 열심히 하는데 오히려 아프거나 나아지지 않아요.**
+케겔이 **항상 정답은 아닙니다.** 산후 골반저 문제는 크게 두 유형으로 나뉩니다:
+- **누출·지지감 저하형(약화)** → **케겔(PFMT) 중심**으로 조이는 힘·지구력을 키웁니다.
+- **통증·긴장형(과활성/과긴장)** → 근육이 **이미 너무 긴장**해 있어, 더 세게 조이면 악화될 수 있습니다. 성교통·배변곤란·꼬리뼈 통증·"조이기만 되고 못 푸는" 경우가 여기 해당합니다. 이때는 **이완 호흡·긴장 완화·통증 없는 범위의 부드러운 움직임**이 먼저입니다.
+
+즉 **"증상이 있으면 운동을 쉰다"가 아니라 "증상 유형에 맞는 운동을 한다"**가 핵심입니다. 스스로 어느 유형인지 가리기 어렵다면, 그 지점이 바로 **여성 골반 전문 물리치료** 평가가 필요한 때입니다.
+
+> 참고: 화장실에서 **소변을 일부러 끊는 동작**은 근육을 *찾을 때* 한두 번만 쓰고, 평소 배뇨 중 반복하지 마세요(방광 감염·배뇨 기능에 좋지 않음). 실제 케겔은 **배뇨를 마친 뒤** 합니다.
+
 ---
 
 ## 4-2. 운동을 멈추고 진료가 필요한 신호 (Red Flags 요약)
@@ -59,6 +68,10 @@
 | **복횡근 (Transverse Abdominis, TVA)** | 가장 깊은 코어 근육. 천연 복대 역할. 호흡으로 활성화. |
 | **골반저근 (Pelvic Floor)** | 골반 바닥을 해먹처럼 받치는 근육. 방광·자궁·직장 지지, 배뇨·배변·자세 안정에 관여. |
 | **케겔 (Kegel)** | 골반저근을 조였다 푸는 운동. "엘리베이터가 부드럽게 올라갔다 완전히 내려오기". |
+| **PFMT** | Pelvic Floor Muscle Training(골반저근 훈련). 케겔을 포함한 골반저 운동의 통칭. 요실금 근거가 가장 확실. |
+| **과긴장 골반저 (Overactive/Hypertonic)** | 골반저근이 과도하게 긴장해 잘 이완되지 않는 상태. 통증·성교통·배변곤란을 유발. 강한 케겔보다 이완이 먼저. |
+| **힘 닫힘 (Force Closure)** | 근육이 능동적으로 조여 골반 관절을 안정시키는 것. 산후 재활의 핵심 원리(0장). |
+| **회음부 열상 / OASI** | 자연분만 시 질~항문 사이 조직 손상. 3·4도(항문괄약근 침범)는 OASI라 하며 전문 재활이 필요한 고위험군. |
 | **골반대 통증 (Pelvic Girdle Pain, PGP)** | 천장관절·치골 부위 통증. "골반이 틀어진" 느낌의 흔한 원인. |
 | **천장관절 (Sacroiliac Joint, SIJ)** | 엉치뼈와 골반(장골)이 만나는 관절. 임신·출산으로 불안정해지기 쉬움. |
 | **치골 결합 (Pubic Symphysis)** | 앞쪽 골반뼈가 만나는 연결부. 벌어지거나 아플 수 있음. |
@@ -74,3 +87,6 @@
 - [Physical Activity and Exercise During Pregnancy and the Postpartum Period — ACOG](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period)
 - [Core muscle strength & stability breathing reduces inter-recti distance (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11889499/)
 - [Returning to running postnatal — guidelines (Goom, Donnelly, Brockwell 2019, PDF)](https://absolute.physio/wp-content/uploads/2019/09/returning-to-running-postnatal-guidelines.pdf)
+- [Pelvic floor dysfunction: prevention and non-surgical management — NICE NG210 (2021)](https://www.nice.org.uk/guidance/ng210)
+- [Exercise in the first year postpartum and pelvic floor dysfunction — Beamish et al., BJSM 2025](https://bjsm.bmj.com/content/59/8/562)
+- 증상 유형별 접근·근거 수준 종합: [`reports/03-chatgpt-deep-research.md`](../reports/03-chatgpt-deep-research.md)
