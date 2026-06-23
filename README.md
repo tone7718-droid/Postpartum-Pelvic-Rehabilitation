@@ -54,36 +54,40 @@
 - [x] 콘텐츠 전체 정합성 다듬기 (장 간 내비게이션·상호참조·면책 문구 일관화)
 - [x] 일러스트·인터랙션 설계 명세 작성 ([`design/illustration-and-interaction-spec.md`](design/illustration-and-interaction-spec.md))
 - [x] Next.js 전자책 골격 구축 (MDX 렌더 · 장 라우팅 · 내비게이션 · 읽기 진행률)
+- [x] 한국어/베트남어 2개 언어 지원 (i18n · 브라우저 언어 자동 감지 · 전환 버튼)
 - [ ] 운동 카드 · 호흡 타이머 · 셀프 평가 인터랙티브 컴포넌트
 - [ ] 동작별 SVG/일러스트 제작
-- [ ] Vercel 배포
+- [ ] Vercel 배포 (Production = main)
+
+## 🌐 다국어 (한국어 · Tiếng Việt)
+
+- 콘텐츠: `content/ko/*.md`, `content/vi/*.md` (언어별 폴더, 같은 파일명 = 같은 챕터)
+- 라우팅: `/ko/...`, `/vi/...` · 루트 `/`는 브라우저 언어 자동 감지 후 리다이렉트(`middleware.ts`)
+- UI 문구: `lib/i18n.ts` 사전 / 로케일 상수: `lib/locales.ts`
+- 헤더의 언어 버튼으로 같은 페이지의 다른 언어로 전환
+- ⚠️ 베트남어는 한국어 원문의 번역본입니다. 의료 정보이므로 원어민·의료 종사자 검수 권장 (VI 페이지에 안내 표기)
 
 ## 🖥 웹사이트 실행 (Next.js)
 
-`content/*.md`를 그대로 읽어 전자책으로 렌더하는 Next.js(App Router) 앱입니다.
+`content/<locale>/*.md`를 그대로 읽어 전자책으로 렌더하는 Next.js(App Router) 앱입니다.
 
 ```bash
 npm install
-npm run dev      # http://localhost:3000
-npm run build    # 정적 빌드 (7개 챕터 SSG)
+npm run dev      # http://localhost:3000  (→ /ko 또는 /vi 로 이동)
+npm run build    # 정적 빌드 (ko·vi × 7장 SSG)
 ```
 
-- 콘텐츠 소스: `content/*.md` (단일 출처 — 본문 수정은 마크다운만 고치면 됩니다)
-- 라우팅: `/` 표지·목차, `/chapter/<slug>` 각 장
+- 콘텐츠 소스: `content/<locale>/*.md` (단일 출처 — 본문 수정은 마크다운만 고치면 됩니다)
+- 라우팅: `/<locale>` 표지·목차, `/<locale>/chapter/<slug>` 각 장
 - 디자인 팔레트: `design/illustration-and-interaction-spec.md` 기준 (로즈/세이지/웜화이트)
-- 배포: Vercel에 레포 루트 그대로 연결 (Framework: Next.js 자동 감지)
+- 배포: Vercel에 레포 루트 그대로 연결 (Framework: Next.js 자동 감지), Production 브랜치 = `main`
 
 ## 📁 현재 구조
 
 ```
 content/
-  00-overview-and-myths.md # 시작하며·통념 바로잡기
-  01-self-assessment.md    # 셀프 평가
-  02-gentle-exercises.md   # 초기 운동
-  03-recovery-timeline.md  # 회복 타임라인 (회음부 열상·제왕절개·복귀 기준)
-  04-faq-glossary.md       # FAQ·용어 정리
-  05-advanced-progression.md # 본격 강화·기능 복귀 (3개월+)
-  06-practical-tools.md    # 증상 일지·6주 검진 체크리스트
+  ko/  00~06 *.md            # 한국어 7개 챕터
+  vi/  00~06 *.md            # 베트남어 7개 챕터 (번역본)
 reports/
   01-claude-deep-research.md   # 근거 심층 보고서 원본 (Claude)
   02-grok-deep-research.md     # 근거 심층 보고서 원본 (Grok)
