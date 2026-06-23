@@ -3,28 +3,46 @@
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import type { Locale } from "@/lib/locales";
 
-/** content/NN-name.md 링크를 /chapter/NN-name 라우트로 변환 */
-function rewriteHref(href: string): { href: string; internal: boolean } {
-  if (!href) return { href: "#", internal: true };
+const GITHUB_BASE =
+  "https://github.com/tone7718-droid/Postpartum-Pelvic-Rehabilitation/blob/main";
 
-  // 같은 폴더의 챕터 마크다운 링크: "01-self-assessment.md" or with #anchor
+/** 마크다운 링크를 로케일 라우트/외부 링크로 변환 */
+function rewriteHref(
+  href: string,
+  locale: Locale,
+): { href: string; external: boolean } {
+  if (!href) return { href: "#", external: false };
+
+  // 같은 폴더의 챕터 마크다운: "01-self-assessment.md" (+#anchor)
   const md = href.match(/^(\d+[\w-]*)\.md(#.*)?$/);
   if (md) {
-    return { href: `/chapter/${md[1]}${md[2] ?? ""}`, internal: true };
+    return { href: `/${locale}/chapter/${md[1]}${md[2] ?? ""}`, external: false };
   }
-  // 상위 폴더(reports/design) 등은 그대로 외부 취급
-  return { href, internal: /^https?:\/\//.test(href) ? false : true };
+  // 상위 폴더(reports/design) → GitHub 원본으로
+  const up = href.match(/^\.\.\/(.+)$/);
+  if (up) {
+    return { href: `${GITHUB_BASE}/${up[1]}`, external: true };
+  }
+  if (/^https?:\/\//.test(href)) return { href, external: true };
+  return { href, external: false };
 }
 
-export default function Markdown({ children }: { children: string }) {
+export default function Markdown({
+  children,
+  locale,
+}: {
+  children: string;
+  locale: Locale;
+}) {
   return (
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
       components={{
         a({ href, children, ...props }) {
-          const { href: to, internal } = rewriteHref(href ?? "");
-          if (internal && to.startsWith("/")) {
+          const { href: to, external } = rewriteHref(href ?? "", locale);
+          if (!external && to.startsWith("/")) {
             return (
               <Link href={to} {...(props as any)}>
                 {children}
@@ -34,8 +52,8 @@ export default function Markdown({ children }: { children: string }) {
           return (
             <a
               href={to}
-              target={internal ? undefined : "_blank"}
-              rel={internal ? undefined : "noopener noreferrer"}
+              target={external ? "_blank" : undefined}
+              rel={external ? "noopener noreferrer" : undefined}
               {...props}
             >
               {children}
