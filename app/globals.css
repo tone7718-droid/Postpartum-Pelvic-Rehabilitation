@@ -1,0 +1,63 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --rose: #e8a6b8;
+  --sage: #7ba6a1;
+  --cream: #fbf7f4;
+  --ink: #3a3a3a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--ink);
+}
+
+/* 콜아웃: 본문 blockquote를 부드러운 카드로 */
+.prose blockquote {
+  border-left-width: 4px;
+  border-radius: 0.5rem;
+  background: #fff;
+  border-color: var(--sage);
+  padding: 0.75rem 1rem;
+  font-style: normal;
+  color: var(--ink);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.prose blockquote p:first-of-type::before,
+.prose blockquote p:last-of-type::after {
+  content: "";
+}
+
+/* 표를 읽기 쉽게 */
+.prose table {
+  display: block;
+  overflow-x: auto;
+  white-space: normal;
+}
+.prose thead th {
+  background: #f3e9ec;
+}
+.prose table td,
+.prose table th {
+  padding: 0.5rem 0.7rem;
+}
+
+.prose a {
+  color: #b5677e;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.prose h2 {
+  color: #4a4a4a;
+  border-bottom: 2px solid #f0e2e6;
+  padding-bottom: 0.3rem;
+}
