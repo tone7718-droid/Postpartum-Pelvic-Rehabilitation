@@ -32,10 +32,28 @@ Giai đoạn 4: Tăng thời gian đi bộ → sau đó tập chính thức (sau
 3. Thở ra từ từ bằng miệng, **kéo nhẹ bụng dưới và siết nhẹ sàn chậu lên trên.**
 4. Hít 3 giây / thở 3 giây. **10 lần × 2~3 hiệp/ngày.**
 
+> 🫁 **Đồng hồ hơi thở** — hít vào·thở ra theo vòng tròn, làm theo 10 lần.
+
+```breathing
+inhale: 3
+exhale: 3
+cycles: 10
+```
+
 ### ② Kegel (cơ sàn chậu) — cùng với hơi thở
 1. Khi thở ra, siết nhẹ nhàng sàn chậu lên như "nhịn tiểu·nhịn xì hơi".
 2. Giữ 3~5 giây rồi **thả lỏng hoàn toàn khi hít vào** (thả lỏng quan trọng như siết).
 3. 8~10 lần × 2~3 hiệp/ngày. Nếu đau·cảm giác đè nặng tăng thì giảm số lần.
+
+> 🌸 **Đồng hồ Kegel** — siết lên 4 giây · giữ 3 giây · thả từ từ 4 giây, 8 lần.
+
+```breathing
+variant: kegel
+inhale: 4
+hold: 3
+exhale: 4
+cycles: 8
+```
 
 > Kegel không phải "siết chặt vắt kiệt" mà là cảm giác "thang máy đi lên nhẹ nhàng rồi xuống hoàn toàn".
 
@@ -51,10 +69,23 @@ Giai đoạn 4: Tăng thời gian đi bộ → sau đó tập chính thức (sau
 2. Khi thở ra, cuộn chậu nhẹ về sau để **ép lưng nhẹ nhàng xuống sàn** (bật cơ ngang bụng).
 3. Trở về khi hít vào. 10 lần × 2 hiệp. Động tác cốt lõi để hồi phục tách cơ thẳng bụng.
 
+```exercise
+sets: 2
+reps: 10
+id: pelvic-tilt
+```
+
 ### ④ Trượt gót chân (Heel Slide)
 1. Nằm co gối, giữ cơ lõi nhẹ nhờ nghiêng chậu.
 2. Khi thở ra, đẩy gót một chân trượt trên sàn để duỗi chân từ từ (đừng để giữa bụng phình lên).
 3. Trở về khi hít vào. Đổi bên 8 lần mỗi bên × 2 hiệp.
+
+```exercise
+sets: 2
+reps: 8
+side: true
+id: heel-slide
+```
 
 ---
 
@@ -64,6 +95,13 @@ Giai đoạn 4: Tăng thời gian đi bộ → sau đó tập chính thức (sau
 1. Nằm co gối. Khi thở ra, giữ sàn chậu·cơ lõi và **nâng mông từ từ** sao cho gối-chậu-vai thẳng hàng.
 2. Giữ 1~2 giây rồi hạ cột sống từng đốt khi hít vào. 8~10 lần × 2 hiệp.
 3. *Lưu ý*: Nếu đau dồn về một bên chậu, kiểm tra lại bài kiểm tra chậu ở [Chương 1 mục 1-3](01-self-assessment.md).
+
+```exercise
+sets: 2
+reps: 8~10
+hold: 2
+id: bridge
+```
 
 ### ⑥ Chuẩn bị Bird-Dog (chim-chó, tay hoặc gối)
 1. Tư thế quỳ bốn điểm, lưng trung tính (không võng lưng), giữ nhẹ cơ lõi.
@@ -76,6 +114,13 @@ Giai đoạn 4: Tăng thời gian đi bộ → sau đó tập chính thức (sau
 1. Nằm nghiêng, co gối và áp hai bàn chân vào nhau (háng·gối khoảng 90 độ).
 2. Giữ hai bàn chân chạm nhau, khi thở ra nâng gối trên **như vỏ sò mở ra** từ từ (đừng để chậu ngả về sau).
 3. Giữ 1~2 giây rồi hạ khi hít vào. 8~10 lần mỗi bên × 2 hiệp. Làm mạnh cơ mông (cơ mông giữa) — then chốt của ổn định chậu.
+
+```exercise
+sets: 2
+reps: 8~10
+side: true
+id: clamshell
+```
 
 ### ⑧ Tư thế Mèo-Bò (Cat-Cow, thả lỏng cột sống)
 1. Ở tư thế quỳ bốn điểm, khi thở ra **cuộn lưng tròn** (mèo), khi hít vào nhẹ nhàng tạo **vòng cung** (bò).
