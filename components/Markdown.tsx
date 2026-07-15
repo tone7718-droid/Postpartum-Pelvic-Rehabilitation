@@ -1,5 +1,5 @@
-"use client";
-
+// 서버 컴포넌트: 마크다운 파싱은 빌드/서버에서 수행하고,
+// 인터랙티브 위젯(BreathingTimer·ExerciseCard)만 클라이언트로 내려보낸다.
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
