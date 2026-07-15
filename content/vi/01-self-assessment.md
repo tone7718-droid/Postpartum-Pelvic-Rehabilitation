@@ -3,7 +3,7 @@
 > ⚠️ **Hãy đọc trước**
 > Đây là thông tin giáo dục, không thay thế chẩn đoán y khoa.
 > Bài tập·tự đánh giá đầu tiên sau sinh an toàn nhất khi bắt đầu sau khi được bác sĩ xác nhận ở **lần khám tuần thứ 6 (kiểm tra hồi phục tử cung·tầng sinh môn/vết mổ).**
-> Đây là tài liệu phù hợp cho vợ tôi (**sinh thường ngày 6/5/2026**). Tốc độ hồi phục khác nhau nhiều theo từng người; nếu trong khi kiểm tra thấy đau nhiều hoặc ra máu·cảm giác đè nặng tăng lên, hãy dừng ngay và hỏi chuyên gia (bác sĩ sản phụ khoa·chuyên viên vật lý trị liệu sàn chậu nữ).
+> Tốc độ hồi phục khác nhau nhiều theo từng người; nếu trong khi kiểm tra thấy đau nhiều hoặc ra máu·cảm giác đè nặng tăng lên, hãy dừng ngay và hỏi chuyên gia (bác sĩ sản phụ khoa·chuyên viên vật lý trị liệu sàn chậu nữ).
 
 ---
 
