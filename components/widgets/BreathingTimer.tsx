@@ -52,17 +52,24 @@ export type BreathingParams = {
   variant?: "breath" | "kegel";
 };
 
+/** 콘텐츠 오타 등으로 극단값이 들어와도 안전한 범위로 제한 */
+function clampSeconds(v: number | undefined): number {
+  if (v == null || !Number.isFinite(v) || v <= 0) return 0;
+  return Math.min(120, v);
+}
+
 function buildPhases(p: BreathingParams, s: Strings): Phase[] {
   const labels = p.variant === "kegel" ? s.kegel : s.phases;
   const seq: Phase[] = [];
-  if ((p.inhale ?? 0) > 0)
-    seq.push({ type: "in", label: labels.in, seconds: p.inhale! });
-  if ((p.hold ?? 0) > 0)
-    seq.push({ type: "hold", label: labels.hold, seconds: p.hold! });
-  if ((p.exhale ?? 0) > 0)
-    seq.push({ type: "out", label: labels.out, seconds: p.exhale! });
-  if ((p.holdOut ?? 0) > 0)
-    seq.push({ type: "holdOut", label: labels.holdOut, seconds: p.holdOut! });
+  const inhale = clampSeconds(p.inhale);
+  const hold = clampSeconds(p.hold);
+  const exhale = clampSeconds(p.exhale);
+  const holdOut = clampSeconds(p.holdOut);
+  if (inhale > 0) seq.push({ type: "in", label: labels.in, seconds: inhale });
+  if (hold > 0) seq.push({ type: "hold", label: labels.hold, seconds: hold });
+  if (exhale > 0) seq.push({ type: "out", label: labels.out, seconds: exhale });
+  if (holdOut > 0)
+    seq.push({ type: "holdOut", label: labels.holdOut, seconds: holdOut });
   return seq;
 }
 
@@ -90,7 +97,7 @@ export default function BreathingTimer({
   params: BreathingParams;
 }) {
   const s = STR[locale] ?? STR.ko;
-  const cycles = Math.max(1, params.cycles ?? 6);
+  const cycles = Math.min(50, Math.max(1, params.cycles ?? 6));
   const phases = buildPhases(
     {
       inhale: params.inhale ?? 4,
@@ -113,6 +120,8 @@ export default function BreathingTimer({
   const phaseStartRef = useRef<number>(0);
   const cycleRef = useRef(0);
   const phaseIdxRef = useRef(0);
+  /** 일시정지 시점까지 현재 단계에서 흐른 시간(초) — 재개 시 이어서 진행 */
+  const elapsedRef = useRef(0);
 
   const stop = useCallback(() => {
     if (rafRef.current != null) cancelAnimationFrame(rafRef.current);
@@ -127,6 +136,7 @@ export default function BreathingTimer({
     setPhaseIdx(0);
     cycleRef.current = 0;
     phaseIdxRef.current = 0;
+    elapsedRef.current = 0;
     setSecLeft(phases[0]?.seconds ?? 0);
     setScale(scaleFor(phases[0]?.type ?? "in", 0));
   }, [phases, stop]);
@@ -137,12 +147,14 @@ export default function BreathingTimer({
       typeof window !== "undefined" &&
       window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 
-    phaseStartRef.current = performance.now();
+    // 일시정지했던 지점부터 이어서: 이미 흐른 시간만큼 시작점을 당겨 놓는다
+    phaseStartRef.current = performance.now() - elapsedRef.current * 1000;
 
     const tick = (now: number) => {
       const phase = phases[phaseIdxRef.current];
       if (!phase) return;
       const elapsed = (now - phaseStartRef.current) / 1000;
+      elapsedRef.current = elapsed;
       const progress = Math.min(1, elapsed / phase.seconds);
 
       setSecLeft(Math.max(0, Math.ceil(phase.seconds - elapsed)));
@@ -169,6 +181,7 @@ export default function BreathingTimer({
         setCycle(nextCycle);
         setPhaseIdx(nextPhase);
         phaseStartRef.current = now;
+        elapsedRef.current = 0;
       }
       rafRef.current = requestAnimationFrame(tick);
     };
@@ -200,8 +213,7 @@ export default function BreathingTimer({
             className="absolute inset-0 rounded-full bg-gradient-to-b from-rose/40 to-sage/30"
             style={{
               transform: `scale(${scale})`,
-              transition:
-                rafRef.current == null ? "transform 0.4s ease-out" : "none",
+              transition: running ? "none" : "transform 0.4s ease-out",
             }}
           />
           <div className="relative text-center">
