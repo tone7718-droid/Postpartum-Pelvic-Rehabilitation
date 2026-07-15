@@ -1,7 +1,7 @@
 # 🌸 산후 골반 교정 가이드 (Postpartum Pelvic Rehabilitation)
 
 출산한 아내를 위해 **산후 골반·코어 회복**을 쉽고 안전하게 안내하는 전자책 웹사이트 프로젝트입니다.
-(Vercel 배포 예정 · Next.js 기반으로 구축 예정)
+(Next.js 기반 · Vercel 배포 · Production 브랜치 = `main`)
 
 > ℹ️ 이 책에서 "골반 교정"은 뼈를 물리적으로 닫는다는 뜻이 아니라 **느슨해진 골반을 받쳐주는 근육(코어·골반저근·둔근)을 다시 강화하는 "골반·코어 재활"**을 의미합니다. (배경은 [`content/ko/00-overview-and-myths.md`](content/ko/00-overview-and-myths.md) 참고)
 
@@ -41,7 +41,7 @@
 
 ## 🧭 콘텐츠 구성 원칙
 
-1. **안전 우선** — 6주 승인·제왕절개 고려·통증 없는 범위·숨 참지 않기
+1. **안전 우선** — 분만 방식·시기·강도에 맞는 안내, 제왕절개·합병증 고려, 통증 없는 범위, 숨 참지 않기
 2. **근거 기반** — ACOG·코크란·1차 연구를 출처로 명시, 통념은 근거로 정정
 3. **점진적 진행** — 호흡부터 시작해 무리하지 않게 단계 상승
 4. **쉬운 언어 + 일러스트(예정)** — 일반인도 직관적으로 따라 할 수 있게
@@ -55,9 +55,13 @@
 - [x] 일러스트·인터랙션 설계 명세 작성 ([`design/illustration-and-interaction-spec.md`](design/illustration-and-interaction-spec.md))
 - [x] Next.js 전자책 골격 구축 (MDX 렌더 · 장 라우팅 · 내비게이션 · 읽기 진행률)
 - [x] 한국어/베트남어 2개 언어 지원 (i18n · 브라우저 언어 자동 감지 · 전환 버튼)
-- [ ] 운동 카드 · 호흡 타이머 · 셀프 평가 인터랙티브 컴포넌트
-- [ ] 동작별 SVG/일러스트 제작
-- [ ] Vercel 배포 (Production = main)
+- [x] 운동 카드 · 호흡 타이머 인터랙티브 컴포넌트
+- [x] 동작별 일러스트 15종 제작 ([`reports/04-codex-review-2026-07-15/GALLERY.md`](reports/04-codex-review-2026-07-15/GALLERY.md))
+- [x] Vercel 배포 (Production = main)
+- [x] 보안·품질: Next.js 15 업그레이드, ESLint·CI·콘텐츠 무결성 검사, 접근성(AA 대비·skip link), SEO(hreflang·sitemap)
+- [ ] 일러스트 전문가(여성건강 물리치료) 검수 후 본문 연결 + WebP 최적화
+- [ ] 베트남어 원어민·의료 종사자 검수
+- [ ] 셀프 평가 인터랙티브 컴포넌트
 
 ## 🌐 다국어 (한국어 · Tiếng Việt)
 
@@ -73,8 +77,11 @@
 
 ```bash
 npm install
-npm run dev      # http://localhost:3000  (→ /ko 또는 /vi 로 이동)
-npm run build    # 정적 빌드 (ko·vi × 7장 SSG)
+npm run dev            # http://localhost:3000  (→ /ko 또는 /vi 로 이동)
+npm run build          # 정적 빌드 (ko·vi × 7장 SSG)
+npm run lint           # ESLint (next/core-web-vitals)
+npm run typecheck      # TypeScript 검사
+npm run check:content  # ko/vi 챕터 대응·링크·위젯 무결성 검사
 ```
 
 - 콘텐츠 소스: `content/<locale>/*.md` (단일 출처 — 본문 수정은 마크다운만 고치면 됩니다)
@@ -86,12 +93,19 @@ npm run build    # 정적 빌드 (ko·vi × 7장 SSG)
 
 ```
 content/
-  ko/  00~06 *.md            # 한국어 7개 챕터
+  ko/  00~06 *.md            # 한국어 7개 챕터 (단일 출처)
   vi/  00~06 *.md            # 베트남어 7개 챕터 (번역본)
+app/                         # Next.js App Router (로케일 레이아웃·챕터 라우트·sitemap/robots)
+components/                  # Markdown 렌더러·내비게이션·위젯(호흡 타이머·운동 카드)
+lib/                         # 콘텐츠 로더·i18n 사전·로케일/사이트 상수
+scripts/
+  check-content.mjs          # ko/vi 대응·링크·위젯 무결성 검사 (CI에서 실행)
+public/images/illustrations/ # 일러스트 15종 (전문가 검수 후 본문 연결 예정)
 reports/
   01-claude-deep-research.md   # 근거 심층 보고서 원본 (Claude)
   02-grok-deep-research.md     # 근거 심층 보고서 원본 (Grok)
   03-chatgpt-deep-research.md  # 근거 심층 보고서 원본 (ChatGPT)
+  04-codex-review-2026-07-15/  # 전체 검토 보고서·일러스트 갤러리·프롬프트
 design/
   illustration-and-interaction-spec.md # 일러스트·인터랙션 설계 명세
 ```
