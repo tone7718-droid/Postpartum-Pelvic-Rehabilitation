@@ -33,7 +33,17 @@ export async function generateMetadata({
   const chapter = getChapter(locale as Locale, slug);
   const d = t(locale as Locale);
   if (!chapter) return { title: d.siteTitle };
-  return { title: `${chapter.title} · ${d.siteTitle}` };
+  return {
+    title: `${chapter.title} · ${d.siteTitle}`,
+    alternates: {
+      canonical: `/${locale}/chapter/${slug}`,
+      languages: {
+        ko: `/ko/chapter/${slug}`,
+        vi: `/vi/chapter/${slug}`,
+        "x-default": `/ko/chapter/${slug}`,
+      },
+    },
+  };
 }
 
 export default async function ChapterPage({

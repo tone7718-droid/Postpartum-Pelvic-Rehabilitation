@@ -4,6 +4,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Locale } from "@/lib/locales";
+import { REPO_URL } from "@/lib/site";
 import BreathingTimer from "@/components/widgets/BreathingTimer";
 import ExerciseCard from "@/components/widgets/ExerciseCard";
 
@@ -27,9 +28,6 @@ function bool(v: string | undefined): boolean {
   return v === "true" || v === "1" || v === "yes";
 }
 
-const GITHUB_BASE =
-  "https://github.com/tone7718-droid/Postpartum-Pelvic-Rehabilitation/blob/main";
-
 /** 마크다운 링크를 로케일 라우트/외부 링크로 변환 */
 function rewriteHref(
   href: string,
@@ -45,7 +43,7 @@ function rewriteHref(
   // 상위 폴더(reports/design) → GitHub 원본으로
   const up = href.match(/^\.\.\/(.+)$/);
   if (up) {
-    return { href: `${GITHUB_BASE}/${up[1]}`, external: true };
+    return { href: `${REPO_URL}/${up[1]}`, external: true };
   }
   if (/^https?:\/\//.test(href)) return { href, external: true };
   return { href, external: false };

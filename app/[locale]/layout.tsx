@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { LOCALES, isLocale, type Locale } from "@/lib/content";
 import { t } from "@/lib/i18n";
 import LangSwitcher from "@/components/LangSwitcher";
+import { siteUrl } from "@/lib/site";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -18,7 +19,17 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const d = t(locale);
-  return { title: d.siteTitle, description: d.tagline };
+  return {
+    metadataBase: new URL(siteUrl()),
+    title: d.siteTitle,
+    description: d.tagline,
+    openGraph: {
+      title: d.siteTitle,
+      description: d.tagline,
+      type: "website",
+      locale: locale === "ko" ? "ko_KR" : "vi_VN",
+    },
+  };
 }
 
 export default async function LocaleLayout({

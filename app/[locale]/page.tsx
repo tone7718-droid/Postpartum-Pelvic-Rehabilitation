@@ -3,6 +3,21 @@ import { notFound } from "next/navigation";
 import { getAllChapters, isLocale, type Locale } from "@/lib/content";
 import { t } from "@/lib/i18n";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!isLocale(locale)) return {};
+  return {
+    alternates: {
+      canonical: `/${locale}`,
+      languages: { ko: "/ko", vi: "/vi", "x-default": "/ko" },
+    },
+  };
+}
+
 export default async function Home({
   params,
 }: {
