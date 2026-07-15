@@ -3,9 +3,14 @@ import { notFound } from "next/navigation";
 import { getAllChapters, isLocale, type Locale } from "@/lib/content";
 import { t } from "@/lib/i18n";
 
-export default function Home({ params }: { params: { locale: string } }) {
-  if (!isLocale(params.locale)) notFound();
-  const locale = params.locale as Locale;
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale: rawLocale } = await params;
+  if (!isLocale(rawLocale)) notFound();
+  const locale = rawLocale as Locale;
   const d = t(locale);
   const chapters = getAllChapters(locale);
 

@@ -23,29 +23,31 @@ export function generateStaticParams() {
   return params;
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { locale: string; slug: string };
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  if (!isLocale(params.locale)) return {};
-  const chapter = getChapter(params.locale as Locale, params.slug);
-  const d = t(params.locale as Locale);
+  const { locale, slug } = await params;
+  if (!isLocale(locale)) return {};
+  const chapter = getChapter(locale as Locale, slug);
+  const d = t(locale as Locale);
   if (!chapter) return { title: d.siteTitle };
   return { title: `${chapter.title} · ${d.siteTitle}` };
 }
 
-export default function ChapterPage({
+export default async function ChapterPage({
   params,
 }: {
-  params: { locale: string; slug: string };
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  if (!isLocale(params.locale)) notFound();
-  const locale = params.locale as Locale;
+  const { locale: rawLocale, slug } = await params;
+  if (!isLocale(rawLocale)) notFound();
+  const locale = rawLocale as Locale;
   const d = t(locale);
-  const chapter = getChapter(locale, params.slug);
+  const chapter = getChapter(locale, slug);
   if (!chapter) notFound();
-  const { prev, next } = getAdjacent(locale, params.slug);
+  const { prev, next } = getAdjacent(locale, slug);
 
   return (
     <main className="mx-auto max-w-3xl px-4 pb-16 pt-6">
