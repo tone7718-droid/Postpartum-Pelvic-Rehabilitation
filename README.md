@@ -3,7 +3,7 @@
 출산한 아내를 위해 **산후 골반·코어 회복**을 쉽고 안전하게 안내하는 전자책 웹사이트 프로젝트입니다.
 (Vercel 배포 예정 · Next.js 기반으로 구축 예정)
 
-> ℹ️ 이 책에서 "골반 교정"은 뼈를 물리적으로 닫는다는 뜻이 아니라 **느슨해진 골반을 받쳐주는 근육(코어·골반저근·둔근)을 다시 강화하는 "골반·코어 재활"**을 의미합니다. (배경은 [`content/00-overview-and-myths.md`](content/00-overview-and-myths.md) 참고)
+> ℹ️ 이 책에서 "골반 교정"은 뼈를 물리적으로 닫는다는 뜻이 아니라 **느슨해진 골반을 받쳐주는 근육(코어·골반저근·둔근)을 다시 강화하는 "골반·코어 재활"**을 의미합니다. (배경은 [`content/ko/00-overview-and-myths.md`](content/ko/00-overview-and-myths.md) 참고)
 
 > 이 자료는 **교육용 정보**이며 의학적 진단·치료를 대신하지 않습니다.
 > 산후 운동은 **6주 진료에서 의료진 승인 후** 시작하고, 통증·출혈·압박감이 늘면 멈추고 전문가와 상담하세요.
@@ -12,13 +12,13 @@
 
 전자책의 기반이 될 정보를 근거 자료와 함께 정리한 수집본입니다. 심층 보고서(`reports/`)를 반영해 지속 보강합니다.
 
-- [`content/00-overview-and-myths.md`](content/00-overview-and-myths.md) — **시작하며·통념 바로잡기**: "닫는 것"이 아니라 "다시 지탱하기", 릴랙신·골반교정 통념 정정, 핵심 근거 수치, 전체 지도
-- [`content/01-self-assessment.md`](content/01-self-assessment.md) — **셀프 평가**: 복직근 이개 손가락 검사, 골반대 통증(ASLR·P4·브리지) 자가 테스트, 골반저근 점검, 위험 신호(Red Flags)
-- [`content/02-gentle-exercises.md`](content/02-gentle-exercises.md) — **초기 운동**: 호흡→골반저→골반 기울이기→안정성→걷기의 4단계 진행, 하루 10분 초보 루틴, 자세·생활 습관 팁
-- [`content/03-recovery-timeline.md`](content/03-recovery-timeline.md) — **회복 타임라인**: 시기별 가이드, 자연분만 회음부 열상·제왕절개 특이사항, 6~12개월 기능 회복, 달리기·고충격 복귀 기준
-- [`content/04-faq-glossary.md`](content/04-faq-glossary.md) — **FAQ·용어 정리**: 자주 묻는 질문 11선(통념 정정·증상 유형별 접근 포함), Red Flags 요약, 핵심 용어 사전
-- [`content/05-advanced-progression.md`](content/05-advanced-progression.md) — **본격 강화·기능 복귀(3개월+)**: 데드버그·팔로프·싱글레그·스텝업·스쿼트·런지·변형 플랭크, 고충격 복귀
-- [`content/06-practical-tools.md`](content/06-practical-tools.md) — **실천 도구**: 증상 일지(주간 기록표), 6주 검진 체크리스트, 함께하는 사람을 위한 팁
+- [`content/ko/00-overview-and-myths.md`](content/ko/00-overview-and-myths.md) — **시작하며·통념 바로잡기**: "닫는 것"이 아니라 "다시 지탱하기", 릴랙신·골반교정 통념 정정, 핵심 근거 수치, 전체 지도
+- [`content/ko/01-self-assessment.md`](content/ko/01-self-assessment.md) — **셀프 평가**: 복직근 이개 손가락 검사, 골반대 통증(ASLR·P4·브리지) 자가 테스트, 골반저근 점검, 위험 신호(Red Flags)
+- [`content/ko/02-gentle-exercises.md`](content/ko/02-gentle-exercises.md) — **초기 운동**: 호흡→골반저→골반 기울이기→안정성→걷기의 4단계 진행, 하루 10분 초보 루틴, 자세·생활 습관 팁
+- [`content/ko/03-recovery-timeline.md`](content/ko/03-recovery-timeline.md) — **회복 타임라인**: 시기별 가이드, 자연분만 회음부 열상·제왕절개 특이사항, 6~12개월 기능 회복, 달리기·고충격 복귀 기준
+- [`content/ko/04-faq-glossary.md`](content/ko/04-faq-glossary.md) — **FAQ·용어 정리**: 자주 묻는 질문 11선(통념 정정·증상 유형별 접근 포함), Red Flags 요약, 핵심 용어 사전
+- [`content/ko/05-advanced-progression.md`](content/ko/05-advanced-progression.md) — **본격 강화·기능 복귀(3개월+)**: 데드버그·팔로프·싱글레그·스텝업·스쿼트·런지·변형 플랭크, 고충격 복귀
+- [`content/ko/06-practical-tools.md`](content/ko/06-practical-tools.md) — **실천 도구**: 증상 일지(주간 기록표), 6주 검진 체크리스트, 함께하는 사람을 위한 팁
 
 ## 📑 근거 자료 (reports/)
 
