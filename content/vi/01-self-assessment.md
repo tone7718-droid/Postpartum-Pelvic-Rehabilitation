@@ -2,7 +2,7 @@
 
 > ⚠️ **Hãy đọc trước**
 > Đây là thông tin giáo dục, không thay thế chẩn đoán y khoa.
-> Bài tập·tự đánh giá đầu tiên sau sinh an toàn nhất khi bắt đầu sau khi được bác sĩ xác nhận ở **lần khám tuần thứ 6 (kiểm tra hồi phục tử cung·tầng sinh môn/vết mổ).**
+> Các hoạt động nhẹ nhàng như hơi thở·bài tập sàn chậu nhẹ có thể bắt đầu sớm hơn nếu diễn tiến tốt, nhưng **bài tập chính thức và phần tự đánh giá dưới đây nên tiến hành sau khi trao đổi với bác sĩ ở lần khám sau sinh (kiểm tra hồi phục tử cung·tầng sinh môn/vết mổ)** thì an toàn hơn.
 > Tốc độ hồi phục khác nhau nhiều theo từng người; nếu trong khi kiểm tra thấy đau nhiều hoặc ra máu·cảm giác đè nặng tăng lên, hãy dừng ngay và hỏi chuyên gia (bác sĩ sản phụ khoa·chuyên viên vật lý trị liệu sàn chậu nữ).
 
 ---
@@ -78,6 +78,8 @@ Phần lớn cảm giác "chậu bị lệch" đến từ đau·mất ổn đị
 ---
 
 ## 1-5. ⛔ Dấu hiệu cần dừng tập và đến bệnh viện (Red Flags)
+
+> 🚨 **Cấp cứu**: Khó thở, đau ngực, ngất, đau đầu dữ dội không giảm (kèm thay đổi thị lực), ra máu nhiều ướt đẫm một băng vệ sinh trong một giờ, ý nghĩ làm hại bản thân hoặc em bé — bất kể có đang tập hay không, hãy **tìm trợ giúp cấp cứu ngay.** Danh sách đầy đủ xem [Chương 6 mục 6-2](06-practical-tools.md).
 
 - Sản dịch (ra máu sau sinh) **đỏ trở lại hoặc lượng tăng lên**
 - Trong·sau khi tập **cảm giác đè nặng·nặng (cảm giác sa) ở chậu/âm đạo tăng**

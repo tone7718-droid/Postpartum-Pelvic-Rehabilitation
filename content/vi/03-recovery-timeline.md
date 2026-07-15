@@ -3,7 +3,7 @@
 > ⚠️ **Hãy đọc trước**
 > Các mốc thời gian dưới đây là **hướng dẫn trung bình**; tốc độ hồi phục khác nhau nhiều theo cách sinh (sinh thường/mổ lấy thai), có rách tầng sinh môn·sinh hỗ trợ forceps/giác hút hay không, biến chứng và cơ địa.
 > **"Tín hiệu cơ thể" quan trọng hơn con số (tuần).** Nếu đau·ra máu·cảm giác đè nặng tăng, đừng chuyển sang giai đoạn sau mà hãy dừng.
-> Thời điểm tiến tới tập chính thức an toàn nhất khi được **bác sĩ xác nhận ở lần khám tuần thứ 6.**
+> Hơi thở·Kegel nhẹ·đi bộ ngắn có thể bắt đầu sớm hơn nếu diễn tiến tốt (bảng 3-1). **Thời điểm nâng lên tập chính thức nên trao đổi với bác sĩ ở lần khám sau sinh** là an toàn nhất; nếu mổ lấy thai hoặc có biến chứng, nhất định xác nhận trước.
 
 ---
 
@@ -54,7 +54,7 @@
 
 Khi sinh thường, vùng tầng sinh môn (giữa âm đạo và hậu môn) thường bị **rách hoặc rạch tầng sinh môn.** Tốc độ hồi phục và lưu ý khác nhau theo mức độ.
 
-- **Rách độ 1~2·rạch tầng sinh môn**: Bắt đầu Kegel·hơi thở **trong phạm vi đau đã dịu.** Lúc đầu làm khi nằm hoặc **ngồi trên gối hình bánh donut** sẽ dễ chịu. Tránh động tác kéo căng vết thương, kéo giãn dạng mạnh chân.
+- **Rách độ 1~2·rạch tầng sinh môn**: Bắt đầu Kegel·hơi thở **trong phạm vi đau đã dịu.** Lúc đầu làm khi nằm; khi ngồi hãy dùng **gối phẳng·êm phân bố áp lực đều** (gối donut/vòng có lỗ giữa có thể kéo căng mô quanh vết thương nên không được khuyến nghị — RCOG). Tránh động tác kéo căng vết thương, kéo giãn dạng mạnh chân.
 - **Rách độ 3~4 (tổn thương cơ thắt hậu môn, OASI)**: Là **nhóm nguy cơ cao.** Bài tập sàn chậu bắt đầu sớm trong phạm vi không đau, nhưng nếu có **vấn đề kiểm soát phân·xì hơi hoặc cảm giác hồi phục chậm** thì đừng chịu đựng bằng tự tập, hãy kết nối **vật lý trị liệu sàn chậu nữ sớm.**
 - **Cảnh báo nhiễm trùng**: Nếu vết thương tầng sinh môn có **mùi·ra máu tăng·đau nặng thêm**, sốt từ 38°C, hãy đi khám.
 - Ngay sau sinh, sàn chậu vốn có cảm giác yếu (RCOG). **Dù chưa cảm nhận rõ**, lặp lại bài tập nhận biết nhẹ thì cảm giác thường quay lại, nên đừng vội.

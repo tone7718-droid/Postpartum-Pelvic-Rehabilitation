@@ -28,7 +28,7 @@ export const dict: Record<Locale, Dict> = {
     startReading: "처음부터 읽기 →",
     cover: "산후 골반 회복 가이드",
     safety:
-      "⚠️ 교육용 정보이며 의학적 진단·치료를 대신하지 않습니다. 산후 운동은 6주 진료에서 의료진 확인 후 시작하고, 통증·출혈·압박감이 늘면 멈추고 전문가와 상담하세요.",
+      "⚠️ 교육용 정보이며 의학적 진단·치료를 대신하지 않습니다. 본격적인 운동은 산후 진료에서 의료진과 상의한 뒤 시작하고, 통증·출혈·압박감이 늘면 멈추고 전문가와 상담하세요.",
     tocHeading: "목차",
     prev: "◀ 이전",
     next: "다음 ▶",
@@ -48,7 +48,7 @@ export const dict: Record<Locale, Dict> = {
     startReading: "Bắt đầu đọc →",
     cover: "Hướng dẫn phục hồi vùng chậu sau sinh",
     safety:
-      "⚠️ Đây là thông tin giáo dục, không thay thế chẩn đoán hoặc điều trị y khoa. Hãy bắt đầu tập sau khi được bác sĩ xác nhận ở lần khám tuần thứ 6; nếu đau, ra máu hoặc cảm giác đè nặng tăng lên, hãy dừng lại và hỏi ý kiến chuyên gia.",
+      "⚠️ Đây là thông tin giáo dục, không thay thế chẩn đoán hoặc điều trị y khoa. Bài tập chính thức nên bắt đầu sau khi trao đổi với bác sĩ ở lần khám sau sinh; nếu đau, ra máu hoặc cảm giác đè nặng tăng lên, hãy dừng lại và hỏi ý kiến chuyên gia.",
     tocHeading: "Mục lục",
     prev: "◀ Trước",
     next: "Tiếp ▶",

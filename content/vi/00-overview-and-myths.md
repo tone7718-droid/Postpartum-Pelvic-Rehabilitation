@@ -1,7 +1,7 @@
 # Chương 0. Mở đầu — Điều gì là thật trong phục hồi vùng chậu sau sinh
 
 > Đây là thông tin giáo dục, không thay thế chẩn đoán hay điều trị y khoa.
-> Hãy bắt đầu tập sau khi được bác sĩ xác nhận ở lần khám tuần thứ 6; nếu đau, ra máu hoặc cảm giác đè nặng tăng lên, hãy dừng lại và hỏi ý kiến chuyên gia.
+> Nếu sinh thường không biến chứng, có thể bắt đầu hơi thở·bài tập sàn chậu nhẹ·đi bộ ngắn trong vài ngày tùy thể trạng (ACOG). **Bài tập cơ lõi·sức mạnh chính thức nên tiến hành sau khi trao đổi với bác sĩ ở lần khám sau sinh**; nếu mổ lấy thai hoặc có biến chứng, hãy xác nhận thời điểm bắt đầu trước. Nếu đau, ra máu hoặc cảm giác đè nặng tăng lên, hãy dừng lại và hỏi ý kiến chuyên gia.
 
 Điểm khởi đầu của cuốn sách này chỉ có một: **hiểu đúng ý nghĩa thật của cụm từ "chỉnh vùng chậu".** Người ta thường nói "tập luyện hay dụng cụ giúp khép lại vùng chậu đã giãn rộng sau sinh", nhưng khi nhìn vào bằng chứng, trọng tâm lại khác.
 
@@ -26,19 +26,19 @@ Trong thai kỳ, hormone (relaxin, progesterone) làm mềm dây chằng ở cá
 | Lầm tưởng | Sự thật dựa trên bằng chứng |
 |---|---|
 | "Tập luyện·dụng cụ khép lại vùng chậu đã giãn" | Hiệu quả làm hẹp xương ít bằng chứng. **Làm mạnh cơ để phục hồi sự ổn định** mới là cốt lõi. Phần lớn giãn rộng tự hồi phục. |
-| "Relaxin duy trì cao vài tháng đến 1 năm sau sinh" | Relaxin trong máu **gần như biến mất sau 3 ngày, về bình thường trong 2 tuần.** Đây là lầm tưởng không được nghiên cứu gốc ủng hộ. |
-| "Cho con bú giữ relaxin cao nên cơ thể lỏng lẻo" | Khi cho con bú, relaxin trong máu thậm chí **thấp hơn.** Không có bằng chứng relaxin trong sữa làm tăng nồng độ toàn thân. |
+| "Relaxin duy trì cao vài tháng đến 1 năm sau sinh" | Relaxin trong máu được báo cáo **giảm nhanh sau sinh.** Tuy nhiên chưa đủ bằng chứng để khẳng định thời điểm biến mất chính xác, và cũng không có bằng chứng nó duy trì cao lâu dài. |
+| "Cho con bú giữ relaxin cao nên cơ thể lỏng lẻo" | **Không có bằng chứng cho con bú giữ relaxin trong máu ở mức cao.** Cũng khó giải thích sự "lỏng lẻo" sau sinh chỉ bằng relaxin. |
 | "Dù vậy cơ thể lỏng vài tháng là do relaxin" | Sự lỏng lẻo khớp (laxity) tồn tại lâu hơn (khớp ngón tay ~13 tuần) **độc lập với nồng độ relaxin.** Dù vậy kết luận thực hành vẫn như nhau: "vài tháng đầu tránh cường độ cao·kéo giãn sâu". |
 | "Gập bụng·crunch để hết mỡ bụng (tách cơ)" | Giai đoạn đầu có thể **làm nặng thêm tách cơ thẳng bụng.** Hãy bắt đầu từ cơ lõi sâu dựa trên hơi thở. |
 | "Nắn chỉnh·dụng cụ chỉnh chậu là cách trị tận gốc" | Đai·dụng cụ có thể giúp giảm đau ban đầu·nâng đỡ tạm thời, nhưng **nếu không bình thường hóa chức năng cơ·dây chằng thì có giới hạn.** Có triệu chứng thì vật lý trị liệu·tập luyện là ưu tiên có bằng chứng hơn. |
 
-> 🧭 **Tổng kết cân bằng (về hormone)**: Thời điểm *chính xác* hormone hết tác dụng khác nhau giữa các nghiên cứu và tùy từng người. Điều chắc chắn là ① **relaxin trong máu giảm nhanh sau sinh (vài ngày~2 tuần)** và ② **giải thích đau·mất ổn định vùng chậu chỉ bằng relaxin là thiếu bằng chứng.** Cảm giác cơ thể lỏng lẻo một thời gian là do **mô·khớp hồi phục dần theo thời gian**, hơn là do nồng độ relaxin. Vì vậy kết luận vẫn vậy — **vài tháng đầu ưu tiên phục hồi sự ổn định·sức mạnh hơn là cường độ cao·kéo giãn sâu.**
+> 🧭 **Tổng kết cân bằng (về hormone)**: Thời điểm *chính xác* hormone hết tác dụng khác nhau giữa các nghiên cứu và tùy từng người. Điều chắc chắn là ① **relaxin trong máu giảm nhanh sau sinh** và ② **giải thích đau·mất ổn định vùng chậu chỉ bằng relaxin là thiếu bằng chứng.** Cảm giác cơ thể lỏng lẻo một thời gian là do **mô·khớp hồi phục dần theo thời gian**, hơn là do nồng độ relaxin. Vì vậy kết luận vẫn vậy — **vài tháng đầu ưu tiên phục hồi sự ổn định·sức mạnh hơn là cường độ cao·kéo giãn sâu.**
 
 ---
 
 ## 0-3. Những con số nên biết (bằng chứng)
 
-- **Tách cơ thẳng bụng (bụng tách giữa) hầu như ai cũng gặp và đa số hồi phục.** Nghiên cứu 300 sản phụ con so (Sperstad 2016): tỷ lệ giảm tự nhiên từ **60%** ở tuần 6 → 45% ở 6 tháng → **33%** ở 12 tháng. Từ 2 ngón tay (khoảng 2~2,7cm) trở lên được xem là tách đáng kể.
+- **Tách cơ thẳng bụng (bụng tách giữa) hầu như ai cũng gặp và đa số hồi phục.** Nghiên cứu 300 sản phụ con so (Sperstad 2016): tỷ lệ giảm tự nhiên từ **60%** ở tuần 6 → 45% ở 6 tháng → **33%** ở 12 tháng. Tiêu chí từ 2 ngón tay (khoảng 2~2,7cm) trở lên thường được dùng để xem là tách đáng kể, nhưng kiểm tra bằng ngón tay có sai số lớn nên **triệu chứng·độ căng của đường trắng giữa·chức năng quan trọng hơn con số bề rộng** (xem Chương 1).
 - **Bài tập cơ sàn chậu (Kegel/PFMT) là bài tập có bằng chứng chắc chắn nhất cho són tiểu sau sinh.** Tổng quan Cochrane (8.485 người): phụ nữ bị són tiểu tập PFMT thì nguy cơ són tiểu ở thời điểm 12 tháng giảm.
 - **Bằng chứng về tác dụng của tập luyện với tách cơ thẳng bụng còn ở mức thấp.** Có thể giúp ích nhưng kết quả khác nhau giữa các nghiên cứu, và ngừng tập có thể quay lại → quan trọng là **đều đặn.**
 - **Trở lại chạy bộ·vận động va đập cao tối thiểu sau 12 tuần + đạt tiêu chí** (Goom 2019). Va đập cao có thể làm tăng đáng kể nguy cơ rối loạn chức năng sàn chậu nên cần đủ thời gian hồi phục.
@@ -62,7 +62,7 @@ Phục hồi sau sinh tiến hành **theo từng giai đoạn theo thời gian.*
 
 > 📖 **Mẹo thứ tự đọc**: Nếu mới bắt đầu, hãy đọc **0 → 1 → 2 → 3 → 6** trước. Chương 4 tra khi thắc mắc, Chương 5 mở ra khi đã hồi phục đủ (thường sau 3 tháng).
 
-> **Khi nào cần gặp chuyên gia:** són tiểu·són phân, cảm giác nặng như tụt ở âm đạo (cảm giác sa), đau vùng chậu·xương mu không dứt, tách từ 2,5 ngón tay trở lên — nếu có một trong số đó, đừng cố một mình mà hãy tìm **chuyên viên vật lý trị liệu sàn chậu nữ / bác sĩ sản phụ khoa·phục hồi chức năng**, đó là con đường có bằng chứng và nhanh nhất.
+> **Khi nào cần gặp chuyên gia:** són tiểu·són phân, cảm giác nặng như tụt ở âm đạo (cảm giác sa), đau vùng chậu·xương mu không dứt, tách từ 3 ngón tay trở lên hoặc đầu ngón tay lún sâu — nếu có một trong số đó, đừng cố một mình mà hãy tìm **chuyên viên vật lý trị liệu sàn chậu nữ / bác sĩ sản phụ khoa·phục hồi chức năng**, đó là con đường có bằng chứng và nhanh nhất.
 
 ---
 
