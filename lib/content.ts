@@ -35,10 +35,9 @@ function splitNumber(title: string): { number: string; short: string } {
 
 function stripChrome(raw: string): string {
   let body = raw.replace(/^#\s+.+?\r?\n/, "");
-  const navIdx = body.lastIndexOf("🧭");
-  if (navIdx !== -1) {
-    body = body.slice(0, navIdx).replace(/\n---\s*\n\s*$/, "\n");
-  }
+  // 파일 끝의 내비게이션 푸터(마지막 "---" 구분선 + "🧭 ..." 한 줄)만 제거.
+  // 본문 중간에 🧭가 나와도(예: 0장 콜아웃) 잘리지 않는다.
+  body = body.replace(/\r?\n---\s*\r?\n\s*🧭[^\n]*\s*$/, "\n");
   return body.trim();
 }
 
