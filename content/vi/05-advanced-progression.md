@@ -128,7 +128,7 @@ id: lunge
 - [Exercise After Pregnancy — ACOG](https://www.acog.org/womens-health/faqs/exercise-after-pregnancy)
 - [Returning to running postnatal — guidelines (Goom, Donnelly, Brockwell 2019, PDF)](https://absolute.physio/wp-content/uploads/2019/09/returning-to-running-postnatal-guidelines.pdf)
 - [Maximizing Recovery in the Postpartum Period: A Timeline for Rehabilitation (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9528725/)
-- Tham khảo cấu trúc bài tập: [`reports/02-grok-deep-research.md`](../reports/02-grok-deep-research.md), [`reports/01-claude-deep-research.md`](../reports/01-claude-deep-research.md)
+- Tham khảo cấu trúc bài tập: [`reports/02-grok-deep-research.md`](../../reports/02-grok-deep-research.md), [`reports/01-claude-deep-research.md`](../../reports/01-claude-deep-research.md)
 
 ---
 

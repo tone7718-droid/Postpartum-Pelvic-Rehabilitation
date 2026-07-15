@@ -83,7 +83,7 @@
 
 ### 참고
 - [Urgent Maternal Warning Signs — CDC Hear Her](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
-- 본 장의 도구는 [`reports/02-grok-deep-research.md`](../reports/02-grok-deep-research.md)의 "실천 권장 사항"을 토대로 구성했습니다.
+- 본 장의 도구는 [`reports/02-grok-deep-research.md`](../../reports/02-grok-deep-research.md)의 "실천 권장 사항"을 토대로 구성했습니다.
 - 운동 단계 기준은 [3장 회복 타임라인](03-recovery-timeline.md), 동작은 [2장](02-gentle-exercises.md)·[5장](05-advanced-progression.md)을 참고하세요.
 
 ---

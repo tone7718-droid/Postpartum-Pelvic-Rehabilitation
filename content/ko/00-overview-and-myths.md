@@ -71,7 +71,7 @@
 - [Prevalence of diastasis recti abdominis... — Sperstad et al., 2016, BJSM](https://bjsm.bmj.com/content/50/17/1092)
 - [Pelvic floor muscle training for prevention/treatment of urinary/faecal incontinence — Cochrane (Boyle et al.)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007471.pub3/full)
 - [Returning to running postnatal — guidelines (Goom, Donnelly, Brockwell 2019, PDF)](https://absolute.physio/wp-content/uploads/2019/09/returning-to-running-postnatal-guidelines.pdf)
-- 본문 근거 종합: [`reports/01-claude-deep-research.md`](../reports/01-claude-deep-research.md)
+- 본문 근거 종합: [`reports/01-claude-deep-research.md`](../../reports/01-claude-deep-research.md)
 
 ---
 

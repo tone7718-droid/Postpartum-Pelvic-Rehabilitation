@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: 콘텐츠 무결성 검사 (ko/vi 대응·링크·위젯)
+        run: npm run check:content
+      - name: Lint
+        run: npm run lint
+      - name: 타입 검사
+        run: npm run typecheck
+      - name: 빌드
+        run: npm run build

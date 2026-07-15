@@ -40,8 +40,8 @@ function rewriteHref(
   if (md) {
     return { href: `/${locale}/chapter/${md[1]}${md[2] ?? ""}`, external: false };
   }
-  // 상위 폴더(reports/design) → GitHub 원본으로
-  const up = href.match(/^\.\.\/(.+)$/);
+  // 상위 폴더(reports/design) → GitHub 원본으로 (../ 반복 허용)
+  const up = href.match(/^(?:\.\.\/)+(.+)$/);
   if (up) {
     return { href: `${REPO_URL}/${up[1]}`, external: true };
   }

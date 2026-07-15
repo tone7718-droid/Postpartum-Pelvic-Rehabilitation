@@ -91,7 +91,7 @@
 - [Returning to running postnatal — guidelines (Goom, Donnelly, Brockwell 2019, PDF)](https://absolute.physio/wp-content/uploads/2019/09/returning-to-running-postnatal-guidelines.pdf)
 - [Pelvic floor dysfunction: prevention and non-surgical management — NICE NG210 (2021)](https://www.nice.org.uk/guidance/ng210)
 - [Exercise in the first year postpartum and pelvic floor dysfunction — Beamish et al., BJSM 2025](https://bjsm.bmj.com/content/59/8/562)
-- 증상 유형별 접근·근거 수준 종합: [`reports/03-chatgpt-deep-research.md`](../reports/03-chatgpt-deep-research.md)
+- 증상 유형별 접근·근거 수준 종합: [`reports/03-chatgpt-deep-research.md`](../../reports/03-chatgpt-deep-research.md)
 
 ---
 
