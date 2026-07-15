@@ -60,8 +60,8 @@ export default async function ChapterPage({
   const { prev, next } = getAdjacent(locale, slug);
 
   return (
-    <main className="mx-auto max-w-3xl px-4 pb-16 pt-6">
-      <ReadingProgress />
+    <main id="main-content" className="mx-auto max-w-3xl px-4 pb-16 pt-6">
+      <ReadingProgress label={d.readingProgress} />
 
       <Link href={`/${locale}`} className="text-sm text-ink/50 hover:text-rose">
         ← {d.toc}
@@ -69,7 +69,7 @@ export default async function ChapterPage({
 
       <header className="mt-3 flex items-baseline gap-3">
         {chapter.number && (
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-rose/20 text-sm font-bold text-[#b5677e]">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-rose/20 text-sm font-bold text-[#9d5568]">
             {chapter.number}
           </span>
         )}

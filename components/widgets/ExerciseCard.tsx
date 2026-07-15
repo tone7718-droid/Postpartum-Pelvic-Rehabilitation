@@ -103,7 +103,7 @@ export default function ExerciseCard({
   return (
     <div className="not-prose my-4 rounded-2xl border border-[#f0e2e6] bg-white p-4">
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
-        <span className="rounded-full bg-rose/15 px-2.5 py-0.5 font-semibold text-[#b5677e]">
+        <span className="rounded-full bg-rose/15 px-2.5 py-0.5 font-semibold text-[#9d5568]">
           {sets} {s.sets}
         </span>
         {params.reps && (
@@ -129,8 +129,8 @@ export default function ExerciseCard({
               onClick={() => toggle(i)}
               className={`flex h-10 w-10 items-center justify-center rounded-full border text-sm font-semibold transition ${
                 filled
-                  ? "border-[#b5677e] bg-[#b5677e] text-white"
-                  : "border-rose/40 bg-rose/5 text-[#b5677e] hover:bg-rose/15"
+                  ? "border-[#9d5568] bg-[#9d5568] text-white"
+                  : "border-rose/40 bg-rose/5 text-[#9d5568] hover:bg-rose/15"
               }`}
             >
               {filled ? "✓" : i + 1}

@@ -15,6 +15,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/* 키보드 사용자 포커스 표시 */
+:focus-visible {
+  outline: 2px solid #9d5568;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 body {
   background-color: var(--cream);
   color: var(--ink);
@@ -52,7 +59,7 @@ body {
 }
 
 .prose a {
-  color: #b5677e;
+  color: #9d5568;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }

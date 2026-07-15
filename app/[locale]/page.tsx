@@ -30,7 +30,7 @@ export default async function Home({
   const chapters = getAllChapters(locale);
 
   return (
-    <main className="mx-auto max-w-3xl px-4 pb-16 pt-8">
+    <main id="main-content" className="mx-auto max-w-3xl px-4 pb-16 pt-8">
       {/* 표지 */}
       <section className="rounded-3xl bg-gradient-to-b from-rose/25 to-sage/15 px-6 py-12 text-center">
         <p className="text-4xl" aria-hidden>
@@ -43,7 +43,7 @@ export default async function Home({
         {chapters[0] && (
           <Link
             href={`/${locale}/chapter/${chapters[0].slug}`}
-            className="mt-6 inline-block rounded-full bg-[#b5677e] px-6 py-3 text-sm font-semibold text-white shadow hover:bg-[#a45a70]"
+            className="mt-6 inline-block rounded-full bg-[#9d5568] px-6 py-3 text-sm font-semibold text-white shadow hover:bg-[#8f4a5e]"
           >
             {d.startReading}
           </Link>
@@ -71,11 +71,11 @@ export default async function Home({
               href={`/${locale}/chapter/${c.slug}`}
               className="group flex items-center gap-4 rounded-2xl border border-[#f0e2e6] bg-white px-4 py-4 transition hover:border-rose hover:shadow-sm"
             >
-              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-rose/20 font-bold text-[#b5677e]">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-rose/20 font-bold text-[#9d5568]">
                 {c.number || "·"}
               </span>
               <span className="min-w-0">
-                <span className="block font-semibold group-hover:text-[#b5677e]">
+                <span className="block font-semibold group-hover:text-[#9d5568]">
                   {c.shortTitle}
                 </span>
               </span>

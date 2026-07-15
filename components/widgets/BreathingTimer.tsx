@@ -218,7 +218,7 @@ export default function BreathingTimer({
           />
           <div className="relative text-center">
             <div
-              className="text-3xl font-bold tabular-nums text-[#a45a70]"
+              className="text-3xl font-bold tabular-nums text-[#8f4a5e]"
               aria-hidden
             >
               {centerText}
@@ -252,7 +252,7 @@ export default function BreathingTimer({
                   setRunning(true);
                 }
               }}
-              className="rounded-full bg-[#b5677e] px-5 py-2 text-sm font-semibold text-white shadow hover:bg-[#a45a70]"
+              className="rounded-full bg-[#9d5568] px-5 py-2 text-sm font-semibold text-white shadow hover:bg-[#8f4a5e]"
             >
               {running ? s.pause : s.start}
             </button>
@@ -260,7 +260,7 @@ export default function BreathingTimer({
           <button
             type="button"
             onClick={reset}
-            className="rounded-full border border-rose/40 px-4 py-2 text-sm text-[#b5677e] hover:bg-rose/15"
+            className="rounded-full border border-rose/40 px-4 py-2 text-sm text-[#9d5568] hover:bg-rose/15"
           >
             {s.reset}
           </button>

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-export default function ReadingProgress() {
+export default function ReadingProgress({ label }: { label?: string }) {
   const [pct, setPct] = useState(0);
 
   useEffect(() => {
@@ -22,7 +22,14 @@ export default function ReadingProgress() {
   }, []);
 
   return (
-    <div className="fixed left-0 top-0 z-30 h-1 w-full bg-transparent">
+    <div
+      role="progressbar"
+      aria-label={label}
+      aria-valuemin={0}
+      aria-valuemax={100}
+      aria-valuenow={Math.round(pct)}
+      className="fixed left-0 top-0 z-30 h-1 w-full bg-transparent"
+    >
       <div
         className="h-full bg-rose transition-[width] duration-150"
         style={{ width: `${pct}%` }}

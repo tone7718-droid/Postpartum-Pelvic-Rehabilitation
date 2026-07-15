@@ -17,6 +17,8 @@ type Dict = {
   langName: string; // name of THIS locale
   switchTo: string; // label for switching to the other locale
   translatedNote?: string; // shown on non-default content
+  skipToContent: string;
+  readingProgress: string;
 };
 
 export const dict: Record<Locale, Dict> = {
@@ -39,6 +41,8 @@ export const dict: Record<Locale, Dict> = {
     footerSignoff: "🌸 아내의 산후 회복을 응원하며",
     langName: "한국어",
     switchTo: "Tiếng Việt",
+    skipToContent: "본문으로 건너뛰기",
+    readingProgress: "읽기 진행률",
   },
   vi: {
     siteTitle: "Hướng dẫn phục hồi vùng chậu sau sinh",
@@ -59,6 +63,8 @@ export const dict: Record<Locale, Dict> = {
     footerSignoff: "🌸 Chúc vợ yêu sớm phục hồi sau sinh",
     langName: "Tiếng Việt",
     switchTo: "한국어",
+    skipToContent: "Bỏ qua đến nội dung",
+    readingProgress: "Tiến độ đọc",
     translatedNote:
       "Đây là bản dịch từ nội dung tiếng Hàn. Vì là thông tin y khoa, nên nhờ người bản ngữ hoặc nhân viên y tế kiểm tra lại khi có thể.",
   },

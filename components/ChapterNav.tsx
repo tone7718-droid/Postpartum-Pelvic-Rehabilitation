@@ -27,7 +27,7 @@ export default function ChapterNav({
           className="rounded-2xl border border-[#f0e2e6] bg-white px-4 py-3 transition hover:border-rose hover:shadow-sm"
         >
           <span className="block text-xs text-ink/50">{dict.prev}</span>
-          <span className="font-semibold text-[#b5677e]">
+          <span className="font-semibold text-[#9d5568]">
             {prev.number ? `${prev.number}. ` : ""}
             {prev.shortTitle}
           </span>
@@ -41,7 +41,7 @@ export default function ChapterNav({
           className="rounded-2xl border border-[#f0e2e6] bg-white px-4 py-3 text-right transition hover:border-rose hover:shadow-sm"
         >
           <span className="block text-xs text-ink/50">{dict.next}</span>
-          <span className="font-semibold text-[#b5677e]">
+          <span className="font-semibold text-[#9d5568]">
             {next.number ? `${next.number}. ` : ""}
             {next.shortTitle}
           </span>
@@ -52,7 +52,7 @@ export default function ChapterNav({
           className="rounded-2xl border border-[#f0e2e6] bg-white px-4 py-3 text-right transition hover:border-rose hover:shadow-sm"
         >
           <span className="block text-xs text-ink/50">{dict.finished}</span>
-          <span className="font-semibold text-[#b5677e]">{dict.backToToc}</span>
+          <span className="font-semibold text-[#9d5568]">{dict.backToToc}</span>
         </Link>
       )}
     </nav>

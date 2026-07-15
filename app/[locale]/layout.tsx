@@ -47,6 +47,12 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className="min-h-screen font-sans antialiased">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-[#9d5568] focus:shadow-lg"
+        >
+          {d.skipToContent}
+        </a>
         <header className="sticky top-0 z-20 border-b border-[#f0e2e6] bg-cream/85 backdrop-blur">
           <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 py-3">
             <Link
@@ -59,7 +65,7 @@ export default async function LocaleLayout({
             <div className="flex shrink-0 items-center gap-2">
               <Link
                 href={`/${locale}`}
-                className="rounded-full bg-rose/20 px-3 py-1 text-sm text-[#b5677e] hover:bg-rose/30"
+                className="rounded-full bg-rose/20 px-3 py-1 text-sm text-[#9d5568] hover:bg-rose/30"
               >
                 {d.toc}
               </Link>

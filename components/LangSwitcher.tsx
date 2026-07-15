@@ -23,7 +23,7 @@ export default function LangSwitcher({ locale }: { locale: Locale }) {
   return (
     <Link
       href={href}
-      className="rounded-full border border-rose/40 px-3 py-1 text-sm text-[#b5677e] hover:bg-rose/15"
+      className="rounded-full border border-rose/40 px-3 py-1 text-sm text-[#9d5568] hover:bg-rose/15"
       hrefLang={other}
     >
       {label}
