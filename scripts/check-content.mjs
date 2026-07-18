@@ -49,15 +49,44 @@ for (const l of LOCALES) {
   }
 }
 
+const headingRe = /^#{1,3} /gm;
+const imageRe = /!\[[^\]]*\]\(([^)]+)\)/g;
+const exerciseIdRe = /^```exercise\s*$[\s\S]*?^id:\s*([\w-]+)\s*$[\s\S]*?^```/gm;
+
 for (const f of files.ko) {
   if (!files.vi.includes(f)) continue;
-  const count = (l) =>
-    (fs.readFileSync(path.join(root, "content", l, f), "utf8").match(widgetFence) ?? [])
-      .length;
-  const ko = count("ko");
-  const vi = count("vi");
-  if (ko !== vi)
-    errors.push(`${f}: 위젯 코드펜스 수 불일치 (ko ${ko}개 vs vi ${vi}개)`);
+  const read = (l) => fs.readFileSync(path.join(root, "content", l, f), "utf8");
+  const ko = read("ko");
+  const vi = read("vi");
+
+  // 위젯 코드펜스 수
+  const wKo = (ko.match(widgetFence) ?? []).length;
+  const wVi = (vi.match(widgetFence) ?? []).length;
+  if (wKo !== wVi)
+    errors.push(`${f}: 위젯 코드펜스 수 불일치 (ko ${wKo}개 vs vi ${wVi}개)`);
+
+  // 헤딩 수 — 구조가 어긋나면 이미지·앵커 삽입 위치가 어긋난다
+  const hKo = (ko.match(headingRe) ?? []).length;
+  const hVi = (vi.match(headingRe) ?? []).length;
+  if (hKo !== hVi)
+    errors.push(`${f}: 헤딩 수 불일치 (ko ${hKo}개 vs vi ${hVi}개)`);
+
+  // 운동 id 집합
+  const ids = (t) => [...t.matchAll(exerciseIdRe)].map((m) => m[1]).sort().join(",");
+  if (ids(ko) !== ids(vi))
+    errors.push(`${f}: exercise id 불일치 (ko [${ids(ko)}] vs vi [${ids(vi)}])`);
+
+  // 이미지: 경로 실존 + ko/vi 같은 이미지 목록
+  const imgs = (t) => [...t.matchAll(imageRe)].map((m) => m[1]);
+  for (const l of LOCALES) {
+    for (const src of imgs(l === "ko" ? ko : vi)) {
+      if (!src.startsWith("/")) continue;
+      if (!fs.existsSync(path.join(root, "public", src)))
+        errors.push(`${l}/${f}: 없는 이미지 → ${src}`);
+    }
+  }
+  if (imgs(ko).join(",") !== imgs(vi).join(","))
+    errors.push(`${f}: 이미지 목록/순서 불일치 (ko ${imgs(ko).length}장 vs vi ${imgs(vi).length}장)`);
 }
 
 if (errors.length) {

@@ -19,6 +19,8 @@ Sau sinh, vùng chậu·cơ lõi dễ cùng lúc yếu đi hoặc biến đổi 
 
 ## 1-2. Tự kiểm tra tách cơ thẳng bụng (kiểm tra bụng tách)
 
+![Tư thế tự kiểm tra tách cơ thẳng bụng — nằm ngửa, hơi nâng đầu, dùng ngón tay kiểm tra giữa bụng](/images/illustrations/IL-01a-diastasis-self-check.webp)
+
 Đây là cách sờ nắn bằng ngón tay được dùng phổ biến nhất.
 
 **Cách làm**
@@ -40,7 +42,11 @@ Sau sinh, vùng chậu·cơ lõi dễ cùng lúc yếu đi hoặc biến đổi 
 
 ---
 
+![Cách đọc độ rộng tách cơ thẳng bụng — so sánh độ rộng ngón tay và độ săn chắc của mô](/images/illustrations/IL-01c-daily-symptom-check.webp)
+
 ## 1-3. Tự kiểm tra đau vùng chậu (cảm giác "lệch chậu")
+
+![Tư thế kiểm tra nâng chân thẳng chủ động (ASLR) và đứng một chân](/images/illustrations/IL-01b-aslr-and-standing-balance.webp)
 
 Phần lớn cảm giác "chậu bị lệch" đến từ đau·mất ổn định ở **khớp cùng chậu (khớp mông-chậu)·khớp mu.** Đây là các mục mà nghiên cứu đánh giá là hữu ích để sàng lọc, không khác biệt nhiều so với khám chuyên gia.
 

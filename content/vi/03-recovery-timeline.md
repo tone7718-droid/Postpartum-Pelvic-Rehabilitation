@@ -9,6 +9,8 @@
 
 ## 3-1. Lộ trình tổng quan (chuẩn sinh thường·diễn tiến tốt)
 
+![Hình các giai đoạn phục hồi sau sinh — từ nghỉ ngơi và hơi thở đến đi bộ, bài tập ổn định, sức mạnh và chạy bộ](/images/illustrations/IL-03a-squat-and-hinge.webp)
+
 | Giai đoạn | Từ khóa | Có thể làm | Còn nên tránh |
 |---|---|---|---|
 | **0~2 tuần (cấp)** | Hồi phục·hơi thở | Thở cơ hoành, Kegel nhẹ, đi bộ ngắn trong nhà, chỉnh tư thế | Bài tập tải cơ lõi, áp lực ổ bụng đột ngột, nâng nặng |
@@ -51,6 +53,8 @@
 ---
 
 ## 3-3. Sinh thường — nếu có rách/rạch tầng sinh môn
+
+![Sơ đồ mức độ rách tầng sinh môn — từ độ 1 đến độ 4 (OASI)](/images/illustrations/IL-03b-carry-and-stairs.webp)
 
 Khi sinh thường, vùng tầng sinh môn (giữa âm đạo và hậu môn) thường bị **rách hoặc rạch tầng sinh môn.** Tốc độ hồi phục và lưu ý khác nhau theo mức độ.
 

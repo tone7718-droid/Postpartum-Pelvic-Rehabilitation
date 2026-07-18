@@ -19,6 +19,25 @@ type Dict = {
   translatedNote?: string; // shown on non-default content
   skipToContent: string;
   readingProgress: string;
+  startGuide: {
+    title: string;
+    subtitle: string;
+    birthQ: string;
+    vaginal: string;
+    cesarean: string;
+    weeksQ: string;
+    w0_6: string;
+    w6_12: string;
+    w12p: string;
+    recTitle: string;
+    recSelfCheck: string;
+    recBreathing: string;
+    recTimeline: string;
+    recCsection: string;
+    recStability: string;
+    recAdvanced: string;
+    disclaimer: string;
+  };
 };
 
 export const dict: Record<Locale, Dict> = {
@@ -43,6 +62,27 @@ export const dict: Record<Locale, Dict> = {
     switchTo: "Tiếng Việt",
     skipToContent: "본문으로 건너뛰기",
     readingProgress: "읽기 진행률",
+    startGuide: {
+      title: "오늘은 어디서 시작할까요?",
+      subtitle:
+        "두 가지만 고르면 지금 읽기 좋은 장을 추천해 드려요.",
+      birthQ: "출산 방식",
+      vaginal: "자연분만",
+      cesarean: "제왕절개",
+      weeksQ: "출산 후 지난 시간",
+      w0_6: "6주 미만",
+      w6_12: "6주~3개월",
+      w12p: "3개월 이상",
+      recTitle: "지금 읽기 좋은 순서",
+      recSelfCheck: "1장 · 내 상태 셀프 점검부터 (위험 신호 확인 포함)",
+      recBreathing: "2장 · 호흡과 골반저 인지부터 부드럽게",
+      recTimeline: "3장 · 내 시기에 해도 되는 것/피할 것",
+      recCsection: "3장 · 제왕절개라면 꼭 읽어야 할 부분(3-4)",
+      recStability: "2장 · 3단계 안정성 운동으로 올라가기",
+      recAdvanced: "5장 · 본격 강화·복귀 운동 (3-5 복귀 기준과 함께)",
+      disclaimer:
+        "진단이 아닌 읽기 안내입니다. 통증·출혈·압박감이 늘면 멈추고 전문가와 상담하세요.",
+    },
   },
   vi: {
     siteTitle: "Hướng dẫn phục hồi vùng chậu sau sinh",
@@ -65,6 +105,33 @@ export const dict: Record<Locale, Dict> = {
     switchTo: "한국어",
     skipToContent: "Bỏ qua đến nội dung",
     readingProgress: "Tiến độ đọc",
+    startGuide: {
+      title: "Hôm nay bắt đầu từ đâu?",
+      subtitle:
+        "Chỉ cần chọn hai mục, chúng tôi sẽ gợi ý chương nên đọc bây giờ.",
+      birthQ: "Cách sinh",
+      vaginal: "Sinh thường",
+      cesarean: "Sinh mổ",
+      weeksQ: "Thời gian sau sinh",
+      w0_6: "Dưới 6 tuần",
+      w6_12: "6 tuần ~ 3 tháng",
+      w12p: "Trên 3 tháng",
+      recTitle: "Thứ tự nên đọc bây giờ",
+      recSelfCheck:
+        "Chương 1 · Tự kiểm tra tình trạng của bạn trước (kèm dấu hiệu cần đi khám)",
+      recBreathing:
+        "Chương 2 · Bắt đầu nhẹ nhàng với hơi thở và nhận biết sàn chậu",
+      recTimeline:
+        "Chương 3 · Giai đoạn của bạn — nên làm gì, tránh gì",
+      recCsection:
+        "Chương 3 · Nếu sinh mổ, phần cần đọc kỹ (mục 3-4)",
+      recStability:
+        "Chương 2 · Tiến lên bài tập ổn định (giai đoạn 3)",
+      recAdvanced:
+        "Chương 5 · Bài tập tăng cường và trở lại vận động (cùng tiêu chí 3-5)",
+      disclaimer:
+        "Đây là gợi ý đọc, không phải chẩn đoán. Nếu đau, ra máu hoặc cảm giác đè nặng tăng lên, hãy dừng lại và hỏi ý kiến chuyên gia.",
+    },
     translatedNote:
       "Đây là bản dịch từ nội dung tiếng Hàn. Vì là thông tin y khoa, nên nhờ người bản ngữ hoặc nhân viên y tế kiểm tra lại khi có thể.",
   },

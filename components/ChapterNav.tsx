@@ -24,10 +24,10 @@ export default function ChapterNav({
       {prev ? (
         <Link
           href={`/${locale}/chapter/${prev.slug}`}
-          className="rounded-2xl border border-[#f0e2e6] bg-white px-4 py-3 transition hover:border-rose hover:shadow-sm"
+          className="rounded-2xl border border-[#f0e2e6] bg-white px-4 py-3 transition hover:border-rose hover:shadow-sm dark:border-[#403036] dark:bg-[#281e22]"
         >
-          <span className="block text-xs text-ink/50">{dict.prev}</span>
-          <span className="font-semibold text-[#9d5568]">
+          <span className="block text-xs text-ink/50 dark:text-white/50">{dict.prev}</span>
+          <span className="font-semibold text-[#9d5568] dark:text-rose">
             {prev.number ? `${prev.number}. ` : ""}
             {prev.shortTitle}
           </span>
@@ -38,10 +38,10 @@ export default function ChapterNav({
       {next ? (
         <Link
           href={`/${locale}/chapter/${next.slug}`}
-          className="rounded-2xl border border-[#f0e2e6] bg-white px-4 py-3 text-right transition hover:border-rose hover:shadow-sm"
+          className="rounded-2xl border border-[#f0e2e6] bg-white px-4 py-3 text-right transition hover:border-rose hover:shadow-sm dark:border-[#403036] dark:bg-[#281e22]"
         >
-          <span className="block text-xs text-ink/50">{dict.next}</span>
-          <span className="font-semibold text-[#9d5568]">
+          <span className="block text-xs text-ink/50 dark:text-white/50">{dict.next}</span>
+          <span className="font-semibold text-[#9d5568] dark:text-rose">
             {next.number ? `${next.number}. ` : ""}
             {next.shortTitle}
           </span>
@@ -49,10 +49,10 @@ export default function ChapterNav({
       ) : (
         <Link
           href={`/${locale}`}
-          className="rounded-2xl border border-[#f0e2e6] bg-white px-4 py-3 text-right transition hover:border-rose hover:shadow-sm"
+          className="rounded-2xl border border-[#f0e2e6] bg-white px-4 py-3 text-right transition hover:border-rose hover:shadow-sm dark:border-[#403036] dark:bg-[#281e22]"
         >
-          <span className="block text-xs text-ink/50">{dict.finished}</span>
-          <span className="font-semibold text-[#9d5568]">{dict.backToToc}</span>
+          <span className="block text-xs text-ink/50 dark:text-white/50">{dict.finished}</span>
+          <span className="font-semibold text-[#9d5568] dark:text-rose">{dict.backToToc}</span>
         </Link>
       )}
     </nav>

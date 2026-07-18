@@ -210,7 +210,7 @@ export default function BreathingTimer({
       : "";
 
   return (
-    <div className="not-prose my-5 rounded-2xl border border-[#f0e2e6] bg-white p-5">
+    <div className="not-prose my-5 rounded-2xl border border-[#f0e2e6] bg-white p-5 dark:border-[#403036] dark:bg-[#281e22]">
       <div className="flex flex-col items-center gap-3">
         {/* animated circle */}
         <div className="relative flex h-40 w-40 items-center justify-center">
@@ -224,7 +224,7 @@ export default function BreathingTimer({
           />
           <div className="relative text-center">
             <div
-              className="text-3xl font-bold tabular-nums text-[#8f4a5e]"
+              className="text-3xl font-bold tabular-nums text-[#8f4a5e] dark:text-rose"
               aria-hidden
             >
               {centerText}
@@ -234,7 +234,7 @@ export default function BreathingTimer({
 
         {/* phase label + cycle */}
         <div className="text-center" aria-live="polite">
-          <p className="text-lg font-semibold text-ink">
+          <p className="text-lg font-semibold text-ink dark:text-white/90">
             {finished
               ? s.done
               : running
@@ -244,7 +244,7 @@ export default function BreathingTimer({
                   : s.ready}
           </p>
           {!finished && (
-            <p className="mt-0.5 text-sm text-ink/50">
+            <p className="mt-0.5 text-sm text-ink/50 dark:text-white/50">
               {s.ofLabel(Math.min(cycle + 1, cycles), cycles)}
             </p>
           )}
@@ -274,7 +274,7 @@ export default function BreathingTimer({
           <button
             type="button"
             onClick={reset}
-            className="rounded-full border border-rose/40 px-4 py-2 text-sm text-[#9d5568] hover:bg-rose/15"
+            className="rounded-full border border-rose/40 px-4 py-2 text-sm text-[#9d5568] dark:text-rose hover:bg-rose/15"
           >
             {s.reset}
           </button>

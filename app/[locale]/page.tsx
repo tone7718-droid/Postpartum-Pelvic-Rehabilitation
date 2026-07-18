@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllChapters, isLocale, type Locale } from "@/lib/content";
 import { t } from "@/lib/i18n";
+import StartGuide from "@/components/StartGuide";
 
 export async function generateMetadata({
   params,
@@ -32,12 +33,12 @@ export default async function Home({
   return (
     <main id="main-content" className="mx-auto max-w-3xl px-4 pb-16 pt-8">
       {/* 표지 */}
-      <section className="rounded-3xl bg-gradient-to-b from-rose/25 to-sage/15 px-6 py-12 text-center">
+      <section className="rounded-3xl bg-gradient-to-b from-rose/25 to-sage/15 px-6 py-12 text-center dark:from-rose/15 dark:to-sage/10">
         <p className="text-4xl" aria-hidden>
           🌸
         </p>
         <h1 className="mt-3 text-2xl font-bold sm:text-3xl">{d.cover}</h1>
-        <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-ink/70">
+        <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-ink/70 dark:text-white/70">
           {d.tagline}
         </p>
         {chapters[0] && (
@@ -50,14 +51,17 @@ export default async function Home({
         )}
       </section>
 
+      {/* 오늘 어디서 시작할지 안내 */}
+      <StartGuide locale={locale} dict={d.startGuide} />
+
       {/* 안전 안내 */}
-      <p className="mt-6 rounded-xl border border-[#f0e2e6] bg-white px-4 py-3 text-xs leading-relaxed text-ink/70">
+      <p className="mt-6 rounded-xl border border-[#f0e2e6] bg-white px-4 py-3 text-xs leading-relaxed text-ink/70 dark:border-[#403036] dark:bg-[#281e22] dark:text-white/70">
         {d.safety}
       </p>
 
       {/* 번역 안내 (vi) */}
       {d.translatedNote && (
-        <p className="mt-3 rounded-xl border border-info/30 bg-info/5 px-4 py-3 text-xs leading-relaxed text-info">
+        <p className="mt-3 rounded-xl border border-info/30 bg-info/5 px-4 py-3 text-xs leading-relaxed text-info dark:border-info/40 dark:bg-info/10 dark:text-[#9db8d2]">
           ℹ️ {d.translatedNote}
         </p>
       )}
@@ -69,18 +73,18 @@ export default async function Home({
           <li key={c.slug}>
             <Link
               href={`/${locale}/chapter/${c.slug}`}
-              className="group flex items-center gap-4 rounded-2xl border border-[#f0e2e6] bg-white px-4 py-4 transition hover:border-rose hover:shadow-sm"
+              className="group flex items-center gap-4 rounded-2xl border border-[#f0e2e6] bg-white px-4 py-4 transition hover:border-rose hover:shadow-sm dark:border-[#403036] dark:bg-[#281e22]"
             >
-              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-rose/20 font-bold text-[#9d5568]">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-rose/20 font-bold text-[#9d5568] dark:text-rose">
                 {c.number || "·"}
               </span>
               <span className="min-w-0">
-                <span className="block font-semibold group-hover:text-[#9d5568]">
+                <span className="block font-semibold group-hover:text-[#9d5568] dark:group-hover:text-rose">
                   {c.shortTitle}
                 </span>
               </span>
               <span
-                className="ml-auto text-ink/30 transition group-hover:translate-x-1 group-hover:text-rose"
+                className="ml-auto text-ink/30 transition group-hover:translate-x-1 group-hover:text-rose dark:text-white/30"
                 aria-hidden
               >
                 →

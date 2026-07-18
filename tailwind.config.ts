@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "media",
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -17,7 +18,13 @@ const config: Config = {
         info: "#5B7C99",
       },
       fontFamily: {
-        sans: ["Pretendard", "ui-sans-serif", "system-ui", "sans-serif"],
+        sans: [
+          "Pretendard Variable",
+          "Pretendard",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+        ],
       },
     },
   },

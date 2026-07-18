@@ -24,9 +24,13 @@ Giai đoạn 4: Tăng thời gian đi bộ → sau đó tập chính thức (sau
 
 ---
 
+![Kiểm tra bụng nhô gờ (coning) — so sánh bụng bình thường và bụng nhô dọc giữa](/images/illustrations/IL-02e-doming-comparison.webp)
+
 ## 2-2. Giai đoạn 1 — Hơi thở và nhận biết sàn chậu
 
 ### ① Thở bằng cơ hoành (cơ bản nhất, nhiều lần trong ngày)
+
+![Thở bằng cơ hoành — hít vào lồng ngực nở sang bên, thở ra bụng nhẹ nhàng xẹp xuống](/images/illustrations/IL-02a-diaphragmatic-breathing.webp)
 1. Ở tư thế thoải mái (nằm hoặc ngồi), giữ lưng thẳng.
 2. Hít vào bằng mũi để **lồng ngực và bụng dưới phồng sang ngang·ra trước** (không nhấc vai).
 3. Thở ra từ từ bằng miệng, **kéo nhẹ bụng dưới và siết nhẹ sàn chậu lên trên.**
@@ -41,6 +45,8 @@ cycles: 10
 ```
 
 ### ② Kegel (cơ sàn chậu) — cùng với hơi thở
+
+![Hình 'thang máy' cho bài Kegel — siết nâng nhẹ nhàng rồi thả lỏng hoàn toàn](/images/illustrations/IL-02b-pelvic-floor-contract-relax.webp)
 1. Khi thở ra, siết nhẹ nhàng sàn chậu lên như "nhịn tiểu·nhịn xì hơi".
 2. Giữ 3~5 giây rồi **thả lỏng hoàn toàn khi hít vào** (thả lỏng quan trọng như siết).
 3. 8~10 lần × 2~3 hiệp/ngày. Nếu đau·cảm giác đè nặng tăng thì giảm số lần.
@@ -76,6 +82,8 @@ id: pelvic-tilt
 ```
 
 ### ④ Trượt gót chân (Heel Slide)
+
+![Động tác nghiêng khung chậu và trượt gót chân](/images/illustrations/IL-02c-heel-slide.webp)
 1. Nằm co gối, giữ cơ lõi nhẹ nhờ nghiêng chậu.
 2. Khi thở ra, đẩy gót một chân trượt trên sàn để duỗi chân từ từ (đừng để giữa bụng phình lên).
 3. Trở về khi hít vào. Đổi bên 8 lần mỗi bên × 2 hiệp.
@@ -92,6 +100,8 @@ id: heel-slide
 ## 2-4. Giai đoạn 3 — Ổn định (sau khi đau·tách cơ đã ổn)
 
 ### ⑤ Cầu mông (Glute Bridge)
+
+![Tư thế cầu hông — nâng hông với cột sống trung tính](/images/illustrations/IL-02d-glute-bridge.webp)
 1. Nằm co gối. Khi thở ra, giữ sàn chậu·cơ lõi và **nâng mông từ từ** sao cho gối-chậu-vai thẳng hàng.
 2. Giữ 1~2 giây rồi hạ cột sống từng đốt khi hít vào. 8~10 lần × 2 hiệp.
 3. *Lưu ý*: Nếu đau dồn về một bên chậu, kiểm tra lại bài kiểm tra chậu ở [Chương 1 mục 1-3](01-self-assessment.md).
@@ -151,6 +161,8 @@ id: clamshell
 ---
 
 ## 2-7. Mẹo tư thế·thói quen sinh hoạt (quan trọng như tập luyện)
+
+![Ngồi dậy kiểu lăn khúc gỗ (log roll) — co gối, nghiêng người sang bên, chống tay ngồi dậy](/images/illustrations/IL-02f-quadruped-core.webp)
 
 - **Tư thế cho con bú**: tựa lưng bằng đệm·gối và đưa bé lên ngang ngực (đừng cúi cổ·vai).
 - **Bế bé**: gập gối dùng lực chân, thở ra giữ cơ lõi rồi nâng (đừng dùng lưng để nâng).

@@ -7,6 +7,8 @@
 
 ## 6-1. Nhật ký triệu chứng (1 phút mỗi ngày)
 
+![Biểu đồ xu hướng nhật ký triệu chứng — theo dõi ra máu, són tiểu, cảm giác đè nặng theo thời gian](/images/illustrations/IL-06a-return-to-running.webp)
+
 Mỗi tối trước khi ngủ 1 phút là đủ. Triệu chứng như đau·són tiểu thay đổi thất thường từng ngày, nên ghi lại sẽ biết khách quan **"tổng thể có đang tốt lên không".**
 
 **Mục ghi chép**

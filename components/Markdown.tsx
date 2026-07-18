@@ -103,6 +103,19 @@ export default function Markdown({
           }
           return <pre>{children}</pre>;
         },
+        img({ node: _node, src, alt, ...props }) {
+          // 일러스트: 지연 로딩 + 대체 텍스트 필수 (스타일은 globals.css .prose img)
+          return (
+            // eslint-disable-next-line @next/next/no-img-element -- 정적 자산 원본 그대로 서빙, next/image 불필요
+            <img
+              src={typeof src === "string" ? src : undefined}
+              alt={alt ?? ""}
+              loading="lazy"
+              decoding="async"
+              {...props}
+            />
+          );
+        },
         a({ href, children, node: _node, ...props }) {
           // node는 react-markdown 내부용 — DOM으로 전달하지 않는다
           const { href: to, external } = rewriteHref(href ?? "", locale);

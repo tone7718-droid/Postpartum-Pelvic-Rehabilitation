@@ -101,19 +101,19 @@ export default function ExerciseCard({
   const allDone = done >= sets;
 
   return (
-    <div className="not-prose my-4 rounded-2xl border border-[#f0e2e6] bg-white p-4">
+    <div className="not-prose my-4 rounded-2xl border border-[#f0e2e6] bg-white p-4 dark:border-[#403036] dark:bg-[#281e22]">
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
-        <span className="rounded-full bg-rose/15 px-2.5 py-0.5 font-semibold text-[#9d5568]">
+        <span className="rounded-full bg-rose/15 px-2.5 py-0.5 font-semibold text-[#9d5568] dark:text-rose">
           {sets} {s.sets}
         </span>
         {params.reps && (
-          <span className="text-ink/70">
+          <span className="text-ink/70 dark:text-white/70">
             × {params.reps} {s.reps}
             {params.side ? ` · ${s.perSide}` : ""}
           </span>
         )}
         {params.hold && (
-          <span className="text-ink/70">· ⏱ {s.holdSec(params.hold)}</span>
+          <span className="text-ink/70 dark:text-white/70">· ⏱ {s.holdSec(params.hold)}</span>
         )}
       </div>
 
@@ -130,7 +130,7 @@ export default function ExerciseCard({
               className={`flex h-10 w-10 items-center justify-center rounded-full border text-sm font-semibold transition ${
                 filled
                   ? "border-[#9d5568] bg-[#9d5568] text-white"
-                  : "border-rose/40 bg-rose/5 text-[#9d5568] hover:bg-rose/15"
+                  : "border-rose/40 bg-rose/5 text-[#9d5568] dark:bg-rose/10 dark:text-rose hover:bg-rose/15"
               }`}
             >
               {filled ? "✓" : i + 1}
@@ -138,7 +138,7 @@ export default function ExerciseCard({
           );
         })}
 
-        <span className="ml-1 min-w-0 text-sm font-medium text-ink/60">
+        <span className="ml-1 min-w-0 text-sm font-medium text-ink/60 dark:text-white/60">
           {allDone ? s.done : ready && done > 0 ? `${done}/${sets}` : s.hint}
         </span>
 
@@ -149,7 +149,7 @@ export default function ExerciseCard({
               setDone(0);
               persist(0);
             }}
-            className="ml-auto shrink-0 text-xs text-ink/40 underline hover:text-rose"
+            className="ml-auto shrink-0 text-xs text-ink/40 underline dark:text-white/40 hover:text-rose"
           >
             {s.reset}
           </button>

@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+/* 폰트는 자체 호스팅(레이아웃 <link>): Pretendard(한국어) + Be Vietnam Pro(베트남어 성조 글리프) */
 
 @tailwind base;
 @tailwind components;
@@ -9,6 +9,20 @@
   --sage: #7ba6a1;
   --cream: #fbf7f4;
   --ink: #3a3a3a;
+  --card: #ffffff;
+  --line: #f0e2e6;
+  --thead: #f3e9ec;
+}
+
+/* 밤 수유 중에도 편안한 웜 다크 팔레트 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cream: #1d1518;
+    --ink: #ece4e7;
+    --card: #281e22;
+    --line: #403036;
+    --thead: #332329;
+  }
 }
 
 html {
@@ -21,17 +35,28 @@ html {
   outline-offset: 2px;
   border-radius: 2px;
 }
+@media (prefers-color-scheme: dark) {
+  :focus-visible {
+    outline-color: var(--rose);
+  }
+}
 
 body {
   background-color: var(--cream);
   color: var(--ink);
 }
 
+/* 베트남어 로케일: 성조 글리프까지 한 서체로 (Pretendard엔 U+1Exx 글리프가 없음) */
+.font-vi {
+  font-family: "Be Vietnam Pro", "Pretendard Variable", Pretendard, ui-sans-serif,
+    system-ui, sans-serif;
+}
+
 /* 콜아웃: 본문 blockquote를 부드러운 카드로 */
 .prose blockquote {
   border-left-width: 4px;
   border-radius: 0.5rem;
-  background: #fff;
+  background: var(--card);
   border-color: var(--sage);
   padding: 0.75rem 1rem;
   font-style: normal;
@@ -51,20 +76,16 @@ body {
   white-space: normal;
 }
 .prose thead th {
-  background: #f3e9ec;
+  background: var(--thead);
 }
 .prose table td,
 .prose table th {
   padding: 0.5rem 0.7rem;
 }
 
-.prose a {
-  color: #9d5568;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-}
-.prose h2 {
-  color: #4a4a4a;
-  border-bottom: 2px solid #f0e2e6;
-  padding-bottom: 0.3rem;
+/* 본문 일러스트 */
+.prose img {
+  border-radius: 1rem;
+  border: 1px solid var(--line);
+  background: #fff;
 }

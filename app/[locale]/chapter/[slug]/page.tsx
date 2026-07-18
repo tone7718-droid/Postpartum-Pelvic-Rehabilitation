@@ -63,20 +63,23 @@ export default async function ChapterPage({
     <main id="main-content" className="mx-auto max-w-3xl px-4 pb-16 pt-6">
       <ReadingProgress label={d.readingProgress} />
 
-      <Link href={`/${locale}`} className="text-sm text-ink/50 hover:text-rose">
+      <Link
+        href={`/${locale}`}
+        className="text-sm text-ink/50 hover:text-rose dark:text-white/50"
+      >
         ← {d.toc}
       </Link>
 
       <header className="mt-3 flex items-baseline gap-3">
         {chapter.number && (
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-rose/20 text-sm font-bold text-[#9d5568]">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-rose/20 text-sm font-bold text-[#9d5568] dark:text-rose">
             {chapter.number}
           </span>
         )}
         <h1 className="text-2xl font-bold leading-snug">{chapter.shortTitle}</h1>
       </header>
 
-      <article className="prose prose-neutral mt-6 max-w-none prose-headings:font-bold prose-h2:text-xl prose-h3:text-lg prose-li:my-1">
+      <article className="prose prose-neutral mt-6 max-w-none prose-headings:font-bold prose-h2:text-xl prose-h3:text-lg prose-li:my-1 dark:prose-invert">
         <Markdown locale={locale}>{chapter.body}</Markdown>
       </article>
 

@@ -1,5 +1,7 @@
 # Chương 0. Mở đầu — Điều gì là thật trong phục hồi vùng chậu sau sinh
 
+![Sơ đồ khung chậu — vị trí khớp mu và khớp cùng chậu](/images/illustrations/IL-00a-pelvic-anatomy.webp)
+
 > Đây là thông tin giáo dục, không thay thế chẩn đoán hay điều trị y khoa.
 > Nếu sinh thường không biến chứng, có thể bắt đầu hơi thở·bài tập sàn chậu nhẹ·đi bộ ngắn trong vài ngày tùy thể trạng (ACOG). **Bài tập cơ lõi·sức mạnh chính thức nên tiến hành sau khi trao đổi với bác sĩ ở lần khám sau sinh**; nếu mổ lấy thai hoặc có biến chứng, hãy xác nhận thời điểm bắt đầu trước. Nếu đau, ra máu hoặc cảm giác đè nặng tăng lên, hãy dừng lại và hỏi ý kiến chuyên gia.
 
@@ -8,6 +10,8 @@
 ---
 
 ## 0-1. Điều quan trọng nhất — không phải "khép lại" mà là "nâng đỡ lại"
+
+![Hình minh họa 'đóng bằng lực' — các cơ bao quanh nâng đỡ khung chậu](/images/illustrations/IL-00b-posture-alignment.webp)
 
 Trong thai kỳ, hormone (relaxin, progesterone) làm mềm dây chằng ở các khớp vùng chậu (phía trước là **khớp mu**, phía sau là **khớp cùng chậu**) để tạo không gian cho em bé đi qua. Vì vậy vùng chậu có cảm giác "lỏng lẻo". Tuy nhiên:
 
