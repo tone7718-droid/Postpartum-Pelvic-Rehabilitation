@@ -58,7 +58,8 @@ export default function Markdown({
 }) {
   return (
     <ReactMarkdown
-      remarkPlugins={[remarkGfm]}
+      // singleTilde:false — "8~10회"처럼 물결표로 쓴 숫자 범위가 취소선으로 렌더링되는 것을 방지
+      remarkPlugins={[[remarkGfm, { singleTilde: false }]]}
       components={{
         pre({ children }) {
           const child: any = Array.isArray(children) ? children[0] : children;
@@ -102,7 +103,8 @@ export default function Markdown({
           }
           return <pre>{children}</pre>;
         },
-        a({ href, children, ...props }) {
+        a({ href, children, node: _node, ...props }) {
+          // node는 react-markdown 내부용 — DOM으로 전달하지 않는다
           const { href: to, external } = rewriteHref(href ?? "", locale);
           if (!external && to.startsWith("/")) {
             return (

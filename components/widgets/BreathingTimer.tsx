@@ -14,6 +14,7 @@ type Strings = {
   ofLabel: (n: number, total: number) => string;
   done: string;
   ready: string;
+  paused: string;
   phases: Record<PhaseType, string>;
   kegel: Record<PhaseType, string>;
 };
@@ -27,6 +28,7 @@ const STR: Record<Locale, Strings> = {
     ofLabel: (n, total) => `${n} / ${total}회`,
     done: "잘하셨어요 🌸",
     ready: "준비되면 시작을 누르세요",
+    paused: "일시정지됨",
     phases: { in: "들이쉬기", hold: "잠시 멈춤", out: "내쉬기", holdOut: "잠시 멈춤" },
     kegel: { in: "조이기", hold: "유지", out: "천천히 풀기", holdOut: "쉬기" },
   },
@@ -38,6 +40,7 @@ const STR: Record<Locale, Strings> = {
     ofLabel: (n, total) => `${n} / ${total} lần`,
     done: "Bạn làm tốt lắm 🌸",
     ready: "Sẵn sàng thì nhấn Bắt đầu",
+    paused: "Đang tạm dừng",
     phases: { in: "Hít vào", hold: "Giữ", out: "Thở ra", holdOut: "Nghỉ" },
     kegel: { in: "Siết lên", hold: "Giữ", out: "Thả từ từ", holdOut: "Nghỉ" },
   },
@@ -110,6 +113,7 @@ export default function BreathingTimer({
   );
 
   const [running, setRunning] = useState(false);
+  const [paused, setPaused] = useState(false);
   const [finished, setFinished] = useState(false);
   const [cycle, setCycle] = useState(0); // 0-based completed-ish
   const [phaseIdx, setPhaseIdx] = useState(0);
@@ -131,6 +135,7 @@ export default function BreathingTimer({
   const reset = useCallback(() => {
     stop();
     setRunning(false);
+    setPaused(false);
     setFinished(false);
     setCycle(0);
     setPhaseIdx(0);
@@ -197,9 +202,10 @@ export default function BreathingTimer({
     ? null
     : phases[phaseIdx] ?? phases[0];
 
+  // 일시정지 중에도 멈춘 숫자와 현재 단계를 그대로 보여준다
   const centerText = finished
     ? "🌸"
-    : running
+    : running || paused
       ? String(secLeft)
       : "";
 
@@ -229,7 +235,13 @@ export default function BreathingTimer({
         {/* phase label + cycle */}
         <div className="text-center" aria-live="polite">
           <p className="text-lg font-semibold text-ink">
-            {finished ? s.done : running ? currentPhase?.label : s.ready}
+            {finished
+              ? s.done
+              : running
+                ? currentPhase?.label
+                : paused
+                  ? `${currentPhase?.label} · ${s.paused}`
+                  : s.ready}
           </p>
           {!finished && (
             <p className="mt-0.5 text-sm text-ink/50">
@@ -247,8 +259,10 @@ export default function BreathingTimer({
                 if (running) {
                   stop();
                   setRunning(false);
+                  setPaused(true);
                 } else {
                   setFinished(false);
+                  setPaused(false);
                   setRunning(true);
                 }
               }}

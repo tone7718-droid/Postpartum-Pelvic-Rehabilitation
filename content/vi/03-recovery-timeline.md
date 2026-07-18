@@ -54,12 +54,12 @@
 
 Khi sinh thường, vùng tầng sinh môn (giữa âm đạo và hậu môn) thường bị **rách hoặc rạch tầng sinh môn.** Tốc độ hồi phục và lưu ý khác nhau theo mức độ.
 
-- **Rách độ 1~2·rạch tầng sinh môn**: Bắt đầu Kegel·hơi thở **trong phạm vi đau đã dịu.** Lúc đầu làm khi nằm; khi ngồi hãy dùng **gối phẳng·êm phân bố áp lực đều** (gối donut/vòng có lỗ giữa có thể kéo căng mô quanh vết thương nên không được khuyến nghị — RCOG). Tránh động tác kéo căng vết thương, kéo giãn dạng mạnh chân.
+- **Rách độ 1~2·rạch tầng sinh môn**: Bắt đầu Kegel·hơi thở **trong phạm vi đau đã dịu.** Lúc đầu làm khi nằm; khi ngồi hãy dùng **gối phẳng·êm phân bố áp lực đều** (gối donut/vòng có lỗ giữa có thể kéo căng mô quanh vết thương nên không được khuyến nghị — RCOG). Tránh động tác kéo căng vết thương, kéo giãn dạng chân mạnh.
 - **Rách độ 3~4 (tổn thương cơ thắt hậu môn, OASI)**: Là **nhóm nguy cơ cao.** Bài tập sàn chậu bắt đầu sớm trong phạm vi không đau, nhưng nếu có **vấn đề kiểm soát phân·xì hơi hoặc cảm giác hồi phục chậm** thì đừng chịu đựng bằng tự tập, hãy kết nối **vật lý trị liệu sàn chậu nữ sớm.**
 - **Cảnh báo nhiễm trùng**: Nếu vết thương tầng sinh môn có **mùi·ra máu tăng·đau nặng thêm**, sốt từ 38°C, hãy đi khám.
 - Ngay sau sinh, sàn chậu vốn có cảm giác yếu (RCOG). **Dù chưa cảm nhận rõ**, lặp lại bài tập nhận biết nhẹ thì cảm giác thường quay lại, nên đừng vội.
 
-> 💡 Tài liệu chính thức trong nước (cổng thông tin thai sản·nuôi con Hàn Quốc, do Hội Sản Phụ khoa thẩm định) thường khuyến cáo bắt đầu bài tập nhẹ tùy tình trạng **từ sau sinh thường 3 ngày**, sớm hơn thì chỉ ở mức **đi bộ·hơi thở·co thắt tầng sinh môn.** Điều kiện cơ thể như **xu hướng giảm ra máu·kiểm soát đau·không nhiễm trùng** quan trọng hơn ngày tháng.
+> 💡 Tài liệu chính thức của Hàn Quốc (cổng thông tin thai sản·nuôi con Hàn Quốc, do Hội Sản Phụ khoa Hàn Quốc thẩm định) thường khuyến cáo bắt đầu bài tập nhẹ tùy tình trạng **từ sau sinh thường 3 ngày**, sớm hơn thì chỉ ở mức **đi bộ·hơi thở·co thắt tầng sinh môn.** Điều kiện cơ thể như **xu hướng giảm ra máu·kiểm soát đau·không nhiễm trùng** quan trọng hơn ngày tháng.
 
 ---
 

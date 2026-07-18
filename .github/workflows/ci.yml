@@ -19,7 +19,8 @@ jobs:
         run: npm run check:content
       - name: Lint
         run: npm run lint
-      - name: 타입 검사
-        run: npm run typecheck
       - name: 빌드
         run: npm run build
+      # 빌드가 next-env.d.ts와 .next/types를 생성한 뒤에 tsc를 실행해야 안정적이다
+      - name: 타입 검사
+        run: npm run typecheck
